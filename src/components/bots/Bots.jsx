@@ -1,46 +1,73 @@
-import './team.scss';
+import { useState } from "react";
+import { ArrowForward, ArrowBack } from "@material-ui/icons";
+import './bots.scss';
 
-function Team() {
-    const coaches = [
+function Bots() {
+
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const data = [
         {
-            id: 1,
-            name: "Bill Knopf",
-            title: "Coderman + DriveCoach Supreme",
-            img: "assets/pdata/technical/Knopf.jpg",
-            desc: "He cool"
+            id: "1",
+            icon:"./assets/bots/gamePic/2020.png",
+            desc: "Our 2020 bot, Prowler. We won the Midwest Regional as Alliance Captain, before COVID cancellations",
+            img: "./assets/bots/bots/2020bot.jpg"
         },
         {
-            id: 2,
-            name: "Kerry Nguyen",
-            title: "Ebic Graphic Designer + Scouting... idk",
-            img: "sry don't got one"
+            id: "2",
+            icon: "./assets/bots/gamePic/2019.svg",
+            desc: "",
+            img: "./assets/bots/bots/2019.jpg"
         },
         {
-            id: 3,
-            name: "Holly Twardowski",
-            title: "Master Outreacher + Chairmaning",
-            img: "Y'all even lucky that I had Knopf"
+            id: "3",
+            icon: "",
+            desc: "",
+            img: ""
         },
-        {
-            id: 4,
-            name: "Royce Leaders",
-            title: "Whole lotta stuff",
-            img: "srsly... what were you thinking?"
-        }
-    ]
+    ];
 
-    const sLead = [
-        {
-
-        }
-    ]
+    const handleClick = (way) => {
+        way === "left"
+            ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+            : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
+    };
 
     return (
-        <div className="team" id="team">
-            <h1>Our Team</h1>
-            <h3>We are a team consisting of school district 308 students</h3>
+        <div className="bots" id="bots">
+            <div
+                className="slider"
+                style={{ transform: `translateX(-${currentSlide * 70}vw)` }}
+            >
+                {data.map((d) => (
+                    <div className="container">
+                        <div className="item">
+                            <div className="left">
+                                <div className="leftContainer">
+                                    <div className="imgContainer">
+                                        <img src={d.icon} alt="" />
+                                    </div>
+                                    <h2>{d.title}</h2>
+                                    <p>{d.desc}</p>
+                                    <span>Projects</span>
+                                </div>
+                            </div>
+                            <div className="right">
+                                <img src={d.img} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <ArrowBack
+                className="arrow left"
+                onClick={() => handleClick("left")}
+            />
+            <ArrowForward
+                className="arrow right"
+                onClick={() => handleClick()}
+            />
         </div>
     );
 }
 
-export default Team;
+export default Bots;
