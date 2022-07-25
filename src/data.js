@@ -3,11 +3,13 @@ export const featuredPortfolio = [
         id: 1,
         title: "House Resolution 259",
         img: "assets/pdata/outreach/HRES259.jpeg",
+        link: "https://www.congress.gov/bill/117th-congress/house-resolution/259?s=1&r=4"
     },
     {
         id: 2,
         title: "Behind the Bumpers",
-        img: "https://i.ytimg.com/vi/xDW74rtNAUY/maxresdefault.jpg"
+        img: "https://i.ytimg.com/vi/xDW74rtNAUY/maxresdefault.jpg",
+        link: "https://www.youtube.com/watch?v=xDW74rtNAUY&t=132s"
     },
     {
         id: 3,
@@ -36,7 +38,8 @@ export const technicalPortfolio = [
     {
         id: 1,
         title: "Robot Programming",
-        img: "assets/pdata/technical/programming.png"
+        img: "assets/pdata/technical/programming.png",
+        link: "https://github.com/Team2338/FRC2022"
     },
     {
         id: 2,

@@ -15,7 +15,7 @@ function Intro() {
                     className="awesomeSlider"
                     play={true}
                     cancelOnInteraction={false}
-                    interval={3000}
+                    interval={3500}
                     infinite={true}
                     bullets={false}
                     media={[

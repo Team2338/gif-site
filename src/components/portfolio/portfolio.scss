@@ -58,6 +58,14 @@
         opacity: 0;
       }
 
+      .modal {
+        .Close{
+          cursor: pointer;
+          overflow: hidden;
+
+        }
+      }
+
       &:hover{
         background-color: $orange;
         img{

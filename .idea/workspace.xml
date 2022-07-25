@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3119c520-9820-4805-8bb9-497b23162131" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/FRC_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/carousel/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/carousel/p4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/carousel/p5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/carousel/p6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/carousel/p7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/bots/Bots.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/bots/bots.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/intro/Intro.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/intro/intro.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolioList/PortfolioList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolioList/portfolioList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/topbar/Topbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/topbar/topbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
+    <list default="true" id="3119c520-9820-4805-8bb9-497b23162131" name="Changes" comment="pics and shit">
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/Calendar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/calendar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bots/Bots.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bots/Bots.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bots/bots.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bots/bots.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/intro/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/intro/Intro.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/topbar/Topbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/Topbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pics and shit" />
+    <option name="LAST_COMMIT_MESSAGE" value="pics and shit" />
   </component>
 </project>

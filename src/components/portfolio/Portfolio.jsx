@@ -6,6 +6,7 @@ import { featuredPortfolio, technicalPortfolio, outreachPortfolio } from "../../
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured")
     const [data, setData] = useState([])
+
     const list = [
         {
             id: "featured",
@@ -20,6 +21,7 @@ export default function Portfolio() {
             title: "Outreach",
         },
     ]
+
 
     useEffect(() => {
         switch (selected) {
@@ -50,7 +52,7 @@ export default function Portfolio() {
                     <div
                         className="item"
                     >
-                        <a href={d.link} target="_blank" rel="noopener noreferrer">
+                        <a href={d.link} target="_blank" rel="noreferrer noopenner">
                             <img
                                 src={d.img}
                                 alt=""
