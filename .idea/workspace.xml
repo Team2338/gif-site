@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3119c520-9820-4805-8bb9-497b23162131" name="Changes" comment="pics and shit">
-      <change afterPath="$PROJECT_DIR$/src/components/calendar/Calendar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/calendar/calendar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bots/Bots.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bots/Bots.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bots/bots.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bots/bots.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/intro/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/intro/Intro.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/Topbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/Topbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calendar/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calendar/Calendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calendar/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calendar/calendar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +73,7 @@
       <workItem from="1658199226686" duration="17151000" />
       <workItem from="1658394567765" duration="22897000" />
       <workItem from="1658490256252" duration="1433000" />
+      <workItem from="1658930888000" duration="6966000" />
     </task>
     <servers />
   </component>

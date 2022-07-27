@@ -1,5 +1,36 @@
 @import "../../global.scss";
+@import 'react-big-calendar/lib/sass/styles';
 
-.Calendar {
+.MyCalendar {
   background-color: $orange;
+  display: flex;
+  justify-content: center;
+
+  .left {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+
+    .text-center {
+      color: $blue;
+      font-size: 80px;
+      margin: 10vw;
+    }
+  }
+
+  .container {
+    flex: 0.5;
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .tCal {
+      height: 50%;
+      background-color: $cp1;
+      border-radius: 20px;
+      color: $cp2;
+    }
+  }
 }
