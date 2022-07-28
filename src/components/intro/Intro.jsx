@@ -46,7 +46,7 @@ function Intro() {
             <div className="right">
                 <div className="wrapper">
                     <h2>We're</h2>
-                    <h1>Team 2338: Gear It Forward</h1>
+                    <h1>Team 2338: Gear It F<img src="assets/FRC_Logo.png" />rward</h1>
                     <h3>A FIRST Robotics Competition Team from Oswego, Illinois, <span>
                         <TypeWriter
                             options={{

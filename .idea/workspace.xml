@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3119c520-9820-4805-8bb9-497b23162131" name="Changes" comment="pics and shit">
+    <list default="true" id="3119c520-9820-4805-8bb9-497b23162131" name="Changes" comment="Change from Contact to Calendar - still needs refinement on style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/calendar/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calendar/Calendar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/calendar/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calendar/calendar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bots/bots.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bots/bots.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/intro/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/intro/Intro.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/intro/intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/intro/intro.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +71,16 @@
       <workItem from="1658199226686" duration="17151000" />
       <workItem from="1658394567765" duration="22897000" />
       <workItem from="1658490256252" duration="1433000" />
-      <workItem from="1658930888000" duration="6966000" />
+      <workItem from="1658930888000" duration="8182000" />
     </task>
+    <task id="LOCAL-00001" summary="Change from Contact to Calendar - still needs refinement on style">
+      <created>1658940237202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658940237202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pics and shit" />
-    <option name="LAST_COMMIT_MESSAGE" value="pics and shit" />
+    <MESSAGE value="Change from Contact to Calendar - still needs refinement on style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change from Contact to Calendar - still needs refinement on style" />
   </component>
 </project>
