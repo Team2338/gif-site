@@ -1,0 +1,22 @@
+@import "../../global.scss";
+@import 'react-big-calendar/lib/sass/styles';
+
+.sponsors-section{
+  background-color: $blue;
+}
+
+.Sponsors{
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors-thank-you h1{
+  color: $gray;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.sponsors-image img{
+  height: 500px;
+  width: 40.7rem;
+}

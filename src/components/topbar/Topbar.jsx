@@ -24,6 +24,7 @@ function Topbar() {
                         <Nav.Link href="#bots">Bots</Nav.Link>
                         <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="#calendar">Calendar</Nav.Link>
+                        <Nav.Link href="#sponsors">Sponsors</Nav.Link>
                         <Nav.Link href="https://gearitforward.com/">Scouting App</Nav.Link>
                     </Nav>
                     <Nav className="justify-content-end" activeKey="/home">
