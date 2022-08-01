@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3119c520-9820-4805-8bb9-497b23162131" name="Changes" comment="Change from Contact to Calendar - still needs refinement on style">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bots/bots.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bots/bots.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/intro/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/intro/Intro.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/intro/intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/intro/intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,6 +60,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +97,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
