@@ -1,12 +1,7 @@
 import './calendar.scss';
-import { useState } from 'react';
-import { Calendar, momentLocalizer } from "react-big-calendar";
-import moment from 'moment';
 
 
 function MyCalendar() {
-    const [value, onChange] = useState(new Date());
-    const localizer = momentLocalizer(moment);
     const myEventsList = [
         {
 
@@ -19,13 +14,7 @@ function MyCalendar() {
                 <h1 className='text-center'>Upcoming<br />Event<br />Calendar</h1>
             </div>
             <div className="container">
-                <Calendar
-                    localizer={localizer}
-                    className="tCal"
-                    events={myEventsList}
-                    startAccessor="start"
-                    endAccessor="end"
-                />
+
             </div>
         </div>
     );
