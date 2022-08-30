@@ -14,6 +14,7 @@ function Intro() {
                 <AutoplaySlider
                     className="awesomeSlider"
                     play={true}
+                    organicArrows={false}
                     cancelOnInteraction={false}
                     interval={3500}
                     infinite={true}
