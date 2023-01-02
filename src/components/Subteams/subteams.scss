@@ -1,0 +1,164 @@
+@import "../../globals";
+
+.section {
+  height: 50vh;
+  padding-left: 6rem;
+  margin-top: -65px;
+
+  .content {
+    display: flex;
+
+    .right {
+      flex: 0.6 1;
+      overflow: hidden;
+      justify-content: center;
+      display: flex;
+    }
+
+    .left{
+      margin-left: 3rem;
+
+      .captain-title {
+        font-size: 2.3rem;
+        color: $orange;
+      }
+
+      .role-title {
+        color: $grey;
+      }
+
+      .about-leader {
+        color: $grey;
+      }
+
+      .modal-popup .learn-button {
+        padding: 5px 10px;
+        background: #00243e;
+        border: 1px solid #02243E;
+        border-radius: 5px;
+        color: #FFF;
+
+
+        &:hover {
+          background-color: $offblue;
+          border: 1px solid $orange;
+          color: $offwhite;
+          cursor: pointer;
+          transition: .3s ease;
+        }
+      }
+    }
+
+    .image-circle{
+      border: 1px solid $orange;
+      border-radius: 50%;
+      height: 26vh;
+      width: 26vh;
+    }
+  }
+}
+
+.close-button {
+  padding: 0px 0px;
+  background: #FFF;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  float: right;
+  font-weight: lighter;
+
+  :hover {
+    font-weight: bold;
+    color: #FE5000;
+    transition: .3s ease;
+  }
+}
+
+.gray-part .role-title {
+  color: #FFFFFF !important;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  h1 {
+    font-size: 65px;
+    margin: 10px 0;
+    color: white;
+    position: relative;
+  }
+
+  h2 {
+    font-size: 40px;
+    color: #FE5000;
+    position: relative;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: #FE5000;
+    position: relative;
+    margin: 10px;
+
+    span {
+      margin-top: 10px;
+      color: white;
+    }
+  }
+}
+
+.sub-paragraph {
+  color: #FFF;
+  margin-bottom: 6px;
+}
+
+.a {
+  position: absolute;
+  bottom: 270px;
+  font-size: large;
+  scale: (2);
+  right: 45vw;
+  color: black;
+
+  .img {
+    animation: arrowBlink 2s infinite;
+  }
+
+  @keyframes arrowBlink {
+    from {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(5px);
+    }
+  }
+}
+
+
+.intro-section{
+  height: 70vh !important;
+
+  .content {
+    display: flex;
+
+    .left {
+      flex: 0.6 1;
+      overflow: hidden;
+      justify-content: center;
+      display: flex;
+      margin-top: 186px;
+    }
+
+    .right {
+      margin-left: 3rem;
+    }
+  }
+}

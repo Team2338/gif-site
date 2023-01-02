@@ -1,0 +1,73 @@
+@import "../../globals";
+
+*{
+    color: $offwhite;
+    &:hover {
+        color: $owHighlight;
+        transition: 100ms ease;
+    }
+}
+
+.cT {
+    color: $offwhite;
+    font-size: 1.5vh;
+    font-weight: 200;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    padding-top: 3vh;
+
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+
+    .fL {
+        width: 40vw;
+    }
+
+    .mR {
+        width: 50vw;
+        ul {
+            padding-right: 2vw;
+            padding-left: 2vw;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+
+            &:hover {
+                color: $owHighlight;
+                transition: 150ms ease;
+            }
+        }
+
+        .sMLinks {
+            padding-left: 1rem;
+            a {
+                font-weight: 200;
+                color: $offwhite;
+                font-size: 18px;
+                padding: .35em;
+
+                &:hover {
+                    color: $owHighlight;
+                }
+            }
+        }
+
+        li {
+            transition: all ease 1s;
+            &:hover {
+                color: $offwhite;
+            }
+            &:active {
+                color: $owHighlight;
+            }
+        }
+    }
+
+    .fR {
+        width: 10vw;
+
+    }
+}

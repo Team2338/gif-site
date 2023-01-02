@@ -1,0 +1,16 @@
+@import "./globals";
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    transition: background-color 100ms ease;
+    background-color: $blue;
+}

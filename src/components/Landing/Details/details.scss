@@ -1,0 +1,51 @@
+@import "../../../globals";
+
+.dt {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 15px;
+
+    .l1 {
+        height: 100vh;
+        width: 100%;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .left {
+            flex: 0.5;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+
+            h2 {
+                font-weight: 600;
+                margin: 10px 0;
+                padding: 3px;
+                font-size: 10vh;
+                position: relative;
+                color: $offwhite;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .right {
+            flex: 0.5;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+
+            .hayden {
+                scale: 0.5;
+                position: absolute;
+            }
+        }
+    }
+}
