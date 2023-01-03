@@ -14,6 +14,14 @@ function Details(props) {
                     <img className="hayden" src="/imgs/IMG_1755.JPG" alt="" />
                 </div>
             </div>
+            <div className="l2">
+                <div className="left">
+
+                </div>
+                <div className="right">
+
+                </div>
+            </div>
         </div>
     );
 }
