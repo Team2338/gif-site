@@ -1,10 +1,10 @@
-import './subteams.scss';
+import './outreach.scss';
 import '../../globals.scss';
 import TypeWriter from "typewriter-effect";
 
 function Intro() {
     return (
-        <section className="intro-section">
+        <section className="intro">
             <div className="content">
                 <div className="left">
                     <div className="wrapper">
@@ -19,7 +19,7 @@ function Intro() {
                         />
                     </span>
                         </h2>
-                        <h1>Sub-Team's at <span className="frc2338-title">Gear it Forward</span></h1>
+                        <h1>Outreach at <span className="frc2338-title">Gear it Forward</span></h1>
                     </div>
                 </div>
             </div>

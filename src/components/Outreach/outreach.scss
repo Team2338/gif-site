@@ -1,0 +1,120 @@
+@import "../../globals";
+
+.content {
+  margin-top: 8rem;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+.intro {
+  height: 20vh !important;
+  .content {
+    .left {
+      flex: 0.6 1;
+      overflow: hidden;
+      justify-content: center;
+      display: flex;
+      margin-top: $introSectionPadding;
+    }
+  }
+}
+
+.about-outreach {
+  .content {
+    display: flex;
+    margin-left: 50px;
+
+    .left {
+      flex: .68 1;
+      margin-left: 13rem;
+      .title {
+        font-size: 33px;
+        font-weight: 400;
+        span {
+          color: $orange;
+          font-weight: 300;
+        }
+        .question-mark {
+          font-size: 25px;
+          font-weight: 100;
+          margin-left: 2px;
+        }
+      }
+    }
+
+    .right {
+      img {
+        border: .8px solid $orange;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+.upcoming-events {
+  margin-left: 16rem;
+  margin-right: 16rem;
+  .row {
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float:left;
+    width: 50%;
+    padding: 17px;
+    text-align: center;
+
+    .event-header {
+      font-weight: 300;
+      span {
+        font-size: 21px!important;
+      }
+    }
+
+    .event-title {
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .date {
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+}
+
+.projects {
+  .content {
+    margin-left: 16rem;
+    margin-right: 16rem;
+
+    .title {
+      margin-bottom: 1.5rem;
+
+      h2 {
+        font-size: 33px;
+        font-weight: 400;
+      }
+    }
+    .box {
+      display: flex;
+      border: .5px solid $offblue;
+      padding: 2rem 0rem 2rem 2rem;
+      .left {
+        flex: 0.84 1;
+      }
+
+      .right {
+        img {
+          border: .5px solid $orange;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}
