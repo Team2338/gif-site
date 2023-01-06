@@ -4,8 +4,16 @@ function Projects(props) {
 
     const project =
         [
-            {title:'title1', description:'description1',image:'imgs/IMG_1755.JPG'},
-            {title:'title2', description:'description1',image:'imgs/IMG_1755.JPG'}
+            {
+                title:'title1',
+                description:'description1',
+                image:'imgs/IMG_1755.JPG'
+            },
+            {
+                title:'title2',
+                description:'description1',
+                image:'imgs/IMG_1755.JPG'
+            }
         ];
     const projectlist = project.map((project) =>
         <div className="box">
