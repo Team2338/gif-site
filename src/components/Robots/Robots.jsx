@@ -12,10 +12,10 @@ function Robots(props) {
             imgDesc: ""
         },
         {
-            title: "bige",
+            title: "asddf",
             img: "imgs/IMG_1755.JPG",
             desc: "Michael is a sellout",
-            imgDesc: ""
+            imgDesc: "t"
         },
         {
             title: "bige",
