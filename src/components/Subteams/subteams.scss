@@ -1,9 +1,13 @@
 @import "../../globals";
 
+.teams {
+  margin-top: 8rem;
+}
+
 .section {
-  height: 50vh;
+  height: 52vh;
   padding-left: 6rem;
-  margin-top: -65px;
+  margin-top: 0px;
 
   .content {
     display: flex;
@@ -144,17 +148,16 @@
 
 
 .intro-section{
-  height: 70vh !important;
+  height: 20vh !important;
 
   .content {
-    display: flex;
 
     .left {
       flex: 0.6 1;
       overflow: hidden;
       justify-content: center;
       display: flex;
-      margin-top: 186px;
+      margin-top: $introSectionPadding;
     }
 
     .right {

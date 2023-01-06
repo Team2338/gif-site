@@ -1,7 +1,19 @@
 $grey: #babfb7;
 $orange: #fe5000;
 $blue: #00243e;
-$offblue: #022b49;
+$offblue: #02355b;
 $offwhite: #FAF9F6;
 $owHighlight: #ffffff;
 $offBlack: #1D1C1B;
+$introSectionPadding: 150px;
+
+.frc2338-title {
+  font-weight: 300;
+  color: $orange;
+}
+.border {
+  margin-top: 4rem;
+  border-bottom: .5px solid #04416fad;
+  width: 130vh;
+  margin-left: 16rem;
+}

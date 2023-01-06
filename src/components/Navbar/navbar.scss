@@ -47,7 +47,7 @@ body{
         color: $offwhite;
 
         &:hover {
-            color: $owHighlight;
+            color: $orange;
             transition: 150ms ease;
         }
     }
@@ -59,10 +59,11 @@ body{
             color: $offwhite;
             font-size: 2.25vh;
             padding: .5em;
+            border-radius: 8px;
 
             &:hover {
                 color: $owHighlight;
-                transition: 50ms ease;
+                transition: 90ms ease;
                 outline: 1.5px solid $orange;
                 background-color: $offblue;
                 border-radius: 8px;
