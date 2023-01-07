@@ -1,4 +1,38 @@
 import './details.scss';
+import Ticker from "react-ticker";
+
+const data = [
+    {
+        title: "a",
+        desc: "a",
+        img: "imgs/IMG_1755.JPG",
+        bgcolor: "#FFFFFF",
+        tcolor: "#000000",
+        dcolor: "#000000"
+    }
+]
+
+const ds = () => {
+    return (
+        <div className="sliding">
+            {data.map((d) => (
+                <div className="container" style={{ backgroundColor: d.bgcolor}}>
+                    <div className="header">
+                        <img src={d.img}/>
+                    </div>
+                    <div className="text">
+                        <h2 style={{ color: d.tcolor }}>
+                            {d.title}
+                        </h2>
+                        <p style={{ color: d.dcolor }}>
+                            {d.desc}
+                        </p>
+                    </div>
+                </div>
+            ))}
+        </div>
+    )
+}
 
 function Details(props) {
     return (
@@ -15,12 +49,9 @@ function Details(props) {
                 </div>
             </div>
             <div className="l2">
-                <div className="left">
-
-                </div>
-                <div className="right">
-
-                </div>
+                <Ticker speed={8}>
+                    {() => <ds />}
+                </Ticker>
             </div>
         </div>
     );
