@@ -1,5 +1,4 @@
 import './details.scss';
-import Ticker from "react-ticker";
 
 const data = [
     {
@@ -45,13 +44,12 @@ function Details(props) {
                     </p>
                 </div>
                 <div className="right">
-                    <img className="hayden" src="/imgs/IMG_1755.JPG" alt="" />
+                    <img className="f1" src="/imgs/IMG_1755.JPG" alt="" />
+                    <img className="f2" src="/imgs/IMG_1755.JPG" alt="" />
+                    <img className="f3" src="/imgs/IMG_1755.JPG" alt="" />
                 </div>
             </div>
             <div className="l2">
-                <Ticker speed={8}>
-                    {() => <ds />}
-                </Ticker>
             </div>
         </div>
     );

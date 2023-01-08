@@ -6,6 +6,7 @@
     flex-direction: column;
     position: relative;
     margin: 15px;
+    transition: all ease-out;
 
     .l1 {
         height: 100vh;
@@ -42,15 +43,35 @@
             display: flex;
             justify-content: center;
 
-            .hayden {
+            .f1 {
                 scale: 0.5;
                 position: absolute;
+                z-index: 2;
+
+
+            }
+
+            .f2 {
+                scale: 0.45;
+                position: absolute;
+                bottom: 25vh;
+                left: 30vw;
+                z-index: 1;
+                transition: 100ms ease;
+
+                &:hover {
+                    z-index: 3;
+                }
+            }
+
+            .f3 {
+                opacity: 0%;
             }
         }
     }
 
     .l2 {
-        height: 25vh;
+        height: 0vh;
         width: 100%;
     }
 }
