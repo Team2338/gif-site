@@ -14,12 +14,13 @@ function Subteams() {
             <div className="subteam">
                 <Intro/>
                 <section className="teams">
-                <SoftwareTeam />
-                <OutreachTeam />
-                <MechanicalTeam />
-                <ScoutingTeam />
-                <MarketingTeam />
-                <ElectricalTeam />
+                    <TeamCaptain/>
+                    <SoftwareTeam />
+                    <OutreachTeam />
+                    <MechanicalTeam />
+                    <ScoutingTeam />
+                    <MarketingTeam />
+                    <ElectricalTeam />
                 </section>
             </div>
         </>

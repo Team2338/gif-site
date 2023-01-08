@@ -75,15 +75,16 @@ section {
         font-size: 21px!important;
       }
     }
-
     .event-title {
       font-size: 20px;
       font-weight: 300;
+      margin-top: 10px;
     }
 
     .date {
       font-size: 15px;
       font-weight: 400;
+      margin-top: 10px;
     }
   }
 }
@@ -103,16 +104,22 @@ section {
     }
     .box {
       display: flex;
-      border: .5px solid $offblue;
       padding: 2rem 0rem 2rem 2rem;
       margin-bottom: 4rem;
+      background: $offblue;
+      border-radius: 3vh;
+      border: 1px solid $offblue;
+
+      &:hover {
+        border: 1px solid $offBlack;
+      }
       .left {
         flex: 0.9 1;
       }
 
       .right {
         img {
-          border: .5px solid $orange;
+          //border: .5px solid $orange;
           border-radius: 8px;
           width: 300px;
           height: 250px;

@@ -1,0 +1,56 @@
+@import "../../globals";
+
+.resources {
+  .content2 {
+    margin-left: 50px;
+    margin-top: 4rem;
+
+    .title {
+      font-size: 33px;
+      font-weight: 400;
+      color: $orange;
+    }
+    .training-list {
+      margin-top: 1rem;
+      .title {
+        font-size: 23px;
+        color: $offwhite;
+      }
+      .link-list {
+        padding-top: 10px;
+      }
+      .link {
+        color: $grey;
+        text-decoration: underline;
+         &:hover {
+           color: $orange;
+           transition: .2s ease;
+         }
+      }
+    }
+
+    .game-manual {
+      .title {
+        margin-top: 1rem;
+        font-size: 23px;
+        color: $offwhite;
+      }
+
+      .link-list {
+        .sub-title {
+          font-weight: 300;
+          margin-top: 9px;
+        }
+        .link {
+          color: $grey;
+          text-decoration: underline;
+          margin-left: 10px!important;
+          &:hover {
+            color: $orange;
+            transition: .2s ease;
+          }
+        }
+      }
+    }
+  }
+}

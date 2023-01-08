@@ -2,18 +2,19 @@ import './subteams.scss';
 
 function TeamCaptain() {
     return (
-        <section className="section TeamCaptain-section">
-            <div className="content">
-                <div className="right">
-                    <img src="../../../public/assests/.." alt="Captains" className="image-circle" />
+        <>
+            <section className="section teamCaptain-section">
+                <div className="content">
+                    <div className="right">
+                        <img src="imgs/IMG_1755.JPG"a lt="team captain" className="image-circle" />
+                    </div>
+                    <div className="left">
+                        <h1 className="captain-title">Team Captain</h1>
+                        <p className="sub-paragraph">Type something here...</p>
+                    </div>
                 </div>
-                <div className="left">
-                    <h1 className="captain-title">Aaron Fowler</h1>
-                    <h3 className="role-title">Team Captain</h3>
-                    <p className="about-leader">Text input here... About leader</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </>
     );
 }
 
