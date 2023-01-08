@@ -3,7 +3,6 @@ import FullLanding from "./components/Landing/FullLanding";
 import Subteams from "./components/Subteams/Subteams";
 import Outreach from "./components/Outreach/Outreach";
 import Robots from "./components/Robots/Robots";
-import Sponsors from "./components/Sponsors/Sponsors";
 import NotFound from "./components/NotFound/NotFound";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -42,9 +41,6 @@ function App() {
       break;
     case "/robots":
       Component = Robots;
-      break;
-    case "/sponsors":
-      Component = Sponsors;
       break;
     case "/contact":
       Component = Contact;
