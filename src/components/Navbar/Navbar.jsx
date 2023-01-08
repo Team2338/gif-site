@@ -21,7 +21,6 @@ function Navbar(props) {
                     <li className="nav-links"><a href="/subteams">Subteams</a></li>
                     <li className="nav-links"><a href="/outreach">Outreach</a></li>
                     <li className="nav-links"><a href="/robots">Robots</a></li>
-                    <li className="nav-links"><a href="/sponsors">Sponsors</a></li>
                     <li className="nav-links"><a href="/resources">Resources</a></li>
                     <li className="nav-links"><a href="/contact">Contact</a></li>
                 </ul>
