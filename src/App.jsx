@@ -16,7 +16,8 @@ function App() {
   const[red, green, blue] = [0, 36, 62]
   const section = document.querySelector('.App')
   const listenScrollEvent = (event) => {
-    const y = 1 + (window.scrollY || window.pageYOffset) / 800
+    let y = 0;
+    y = 1 + (window.scrollY || window.pageYOffset) / 900
     const [r, g, b] = [red / y, green / y, blue / y].map(Math.round)
     section.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
   }

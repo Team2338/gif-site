@@ -1,11 +1,11 @@
 import "./subteams.scss";
-import TeamCaptain from "./TeamCaptain";
-import SoftwareTeam from "./SoftwareTeam";
-import OutreachTeam from "./OutreachTeam";
-import MechanicalTeam from "./MechanicalTeam";
-import ScoutingTeam from "./ScoutingTeam";
-import MarketingTeam from "./MarketingTeam";
-import ElectricalTeam from "./ElectricalTeam";
+import TeamCaptain from "./Sub-Teams/TeamCaptain";
+import SoftwareTeam from "./Sub-Teams/SoftwareTeam";
+import OutreachTeam from "./Sub-Teams/OutreachTeam";
+import MechanicalTeam from "./Sub-Teams/MechanicalTeam";
+import ScoutingTeam from "./Sub-Teams/ScoutingTeam";
+import MarketingTeam from "./Sub-Teams/MarketingTeam";
+import ElectricalTeam from "./Sub-Teams/ElectricalTeam";
 import Intro from "./Intro";
 
 function Subteams() {

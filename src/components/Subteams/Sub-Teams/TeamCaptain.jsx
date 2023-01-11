@@ -1,4 +1,4 @@
-import './subteams.scss';
+import '../subteams.scss';
 
 function TeamCaptain() {
     return (
