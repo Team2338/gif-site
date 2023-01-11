@@ -1,8 +1,15 @@
 import './contact.scss';
+import Intro from "./Intro";
+import ContactForm from "./ContactForm/ContactForm";
 
 function Contact(props) {
     return (
-        <div></div>
+        <>
+            <Intro/>
+            <div className="content">
+                <ContactForm/>
+            </div>
+        </>
     );
 }
 

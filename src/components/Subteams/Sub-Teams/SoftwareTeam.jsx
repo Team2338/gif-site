@@ -1,4 +1,4 @@
-import './subteams.scss';
+import '../subteams.scss';
 import React, { useState } from "react";
 
 function SoftwareTeam() {

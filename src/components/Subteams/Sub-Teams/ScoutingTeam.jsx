@@ -1,16 +1,16 @@
-import "./subteams.scss";
+import "../subteams.scss";
 import React, {useState} from "react";
 
-function MarketingTeam() {
+function ScoutingTeam() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <section className="section after-blue marketingCaptain-section">
+        <section className="section after-blue scoutingCaptain-section">
             <div className="content">
                 <div className="right">
-                    <img src="imgs/IMG_1755.JPG" alt="Captain Photo" className="image-circle" />
+                    <img src=".imgs/IMG_1755.JPG" alt="Captain Photo" className="image-circle" />
                 </div>
                 <div className="left gray-part">
-                    <h1 className="captain-title">Marketing Sub-Team</h1>
+                    <h1 className="captain-title">Scouting Sub-Team</h1>
                     <p className="sub-paragraph">Type something here...</p>
 
                 </div>
@@ -19,4 +19,4 @@ function MarketingTeam() {
     )
 }
 
-export default MarketingTeam;
+export default ScoutingTeam;
