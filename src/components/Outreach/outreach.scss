@@ -58,6 +58,8 @@ section {
   margin-left: 16rem;
   margin-right: 16rem;
   .row {
+    background-color: $offblue;
+    border-radius: 20px;
   }
   .row:after {
     content: "";
@@ -83,8 +85,8 @@ section {
     }
 
     .date {
-      font-size: 15px;
-      font-weight: 400;
+      font-size: 20px;
+      font-weight: 500;
       margin-top: 10px;
     }
   }

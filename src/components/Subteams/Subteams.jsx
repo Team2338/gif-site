@@ -1,11 +1,11 @@
 import "./subteams.scss";
-import TeamCaptain from "./Sub-Teams/TeamCaptain";
-import SoftwareTeam from "./Sub-Teams/SoftwareTeam";
-import OutreachTeam from "./Sub-Teams/OutreachTeam";
-import MechanicalTeam from "./Sub-Teams/MechanicalTeam";
-import ScoutingTeam from "./Sub-Teams/ScoutingTeam";
-import MarketingTeam from "./Sub-Teams/MarketingTeam";
-import ElectricalTeam from "./Sub-Teams/ElectricalTeam";
+import TeamCaptain from "./subteams/TeamCaptain";
+import SoftwareTeam from "./subteams/SoftwareTeam";
+import OutreachTeam from "./subteams/OutreachTeam";
+import MechanicalTeam from "./subteams/MechanicalTeam";
+import ScoutingTeam from "./subteams/ScoutingTeam";
+import MarketingTeam from "./subteams/MarketingTeam";
+import ElectricalTeam from "./subteams/ElectricalTeam";
 import Intro from "./Intro";
 
 function Subteams() {
@@ -14,13 +14,24 @@ function Subteams() {
             <div className="subteam">
                 <Intro/>
                 <section className="teams">
-                    <TeamCaptain/>
-                    <SoftwareTeam />
-                    <OutreachTeam />
-                    <MechanicalTeam />
-                    <ScoutingTeam />
-                    <MarketingTeam />
-                    <ElectricalTeam />
+                    <div className="bo">
+                        <SoftwareTeam/>
+                    </div>
+                    <div className="bo">
+                        <ElectricalTeam/>
+                    </div>
+                    <div className="bo">
+                        <MechanicalTeam/>
+                    </div>
+                    <div className="bo">
+                        <OutreachTeam/>
+                    </div>
+                    <div className="bo">
+                        <MarketingTeam/>
+                    </div>
+                    <div className="bo">
+                        <ScoutingTeam/>
+                    </div>
                 </section>
             </div>
         </>
