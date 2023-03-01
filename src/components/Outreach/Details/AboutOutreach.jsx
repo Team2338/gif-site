@@ -6,7 +6,7 @@ function AboutOutreach() {
         <section className="about-outreach">
             <div className="content">
                 <div className="left">
-                    <h2 className="title">What is <span>Outreach</span><span className="question-mark">?</span></h2>
+                    <h2 className="title">What is <span>Outreach?</span></h2>
                     <p className="answer">Type Here....</p>
                 </div>
                 <div className="right">
