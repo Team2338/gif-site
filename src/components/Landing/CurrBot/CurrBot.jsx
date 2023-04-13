@@ -17,10 +17,10 @@ function CurrBot(props) {
                         <h2 className="mini">Introducing our 2023 bot: <span>ZEPHYR</span></h2>
                         <h3 className="extraMini">
                             Falcon-NEO MK4 Drivebase.
-                            MotionMagic Elevator.
-                            Revolving Telescoping Intake.
+                            Revolving Telescoping Elevator.
+                            Neural Net Based Vision.
                             <br />
-                            Seven Rivers Regional Winner.
+                            Seven Rivers Regional Winner.<br />
                             Top 25 Global EPA.
                         </h3>
                         <div className="buttons">
