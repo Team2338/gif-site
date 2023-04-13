@@ -2,18 +2,27 @@
 
 .teams {
   margin-top: 8rem;
+  margin: 4vh;
+  padding-top: 1rem;
+
+  .bo {
+    background-color: $offblue;
+    border-radius: 5vh;
+    border: 1px solid $orange;
+    margin-bottom: 5vh;
+  }
 }
 
 .section {
-  height: 52vh;
+  height: 40vh;
   padding-left: 6rem;
-  margin-top: 0px;
+  padding-top: 5vh;
 
   .content {
     display: flex;
 
     .right {
-      flex: 0.6 1;
+      flex: 0.2;
       overflow: hidden;
       justify-content: center;
       display: flex;
@@ -21,10 +30,13 @@
 
     .left{
       margin-left: 3rem;
+      flex: 0.8;
+
 
       .captain-title {
-        font-size: 2.3rem;
+        font-size: 3.0rem;
         color: $orange;
+        padding-bottom: 5px;
       }
 
       .role-title {
@@ -42,7 +54,6 @@
         border-radius: 5px;
         color: #FFF;
 
-
         &:hover {
           background-color: $offblue;
           border: 1px solid $orange;
@@ -56,8 +67,8 @@
     .image-circle{
       border: 1px solid $orange;
       border-radius: 50%;
-      height: 26vh;
-      width: 26vh;
+      height: 30vh;
+      width: 30vh;
     }
   }
 }
@@ -120,6 +131,8 @@
 .sub-paragraph {
   color: #FFF;
   margin-bottom: 6px;
+  font-size: 2.5vh;
+  margin-right: 3vw;
 }
 
 .a {
