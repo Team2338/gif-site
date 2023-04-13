@@ -1,8 +1,6 @@
 import '../subteams.scss';
-import React, { useState } from "react";
 
 function SoftwareTeam() {
-    const [isOpen, setIsOpen] = useState(false);
     return (
         <>
             <section className="section softwareCaptain-section">

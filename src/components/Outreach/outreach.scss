@@ -30,6 +30,7 @@ section {
     .left {
       flex: .68 1;
       margin-left: 13rem;
+      padding-right: 1rem;
       .title {
         font-size: 33px;
         font-weight: 400;
@@ -46,6 +47,8 @@ section {
     }
 
     .right {
+      padding-top: 2rem;
+
       img {
         border: .8px solid $orange;
         border-radius: 8px;
@@ -57,6 +60,15 @@ section {
 .upcoming-events {
   margin-left: 16rem;
   margin-right: 16rem;
+  .event-header {
+    font-weight: 400;
+    font-size: 33px;
+    padding-bottom: 1.5rem;
+    span {
+      font-size: 33px!important;
+    }
+  }
+
   .row {
     background-color: $offblue;
     border-radius: 20px;
@@ -72,14 +84,7 @@ section {
     padding: 17px;
     text-align: center;
 
-    .event-header {
-      font-weight: 400;
-      font-size: 33px;
-      padding-bottom: 1.5rem;
-      span {
-        font-size: 33px!important;
-      }
-    }
+
     .event-title {
       font-size: 20px;
       font-weight: 300;
@@ -122,6 +127,7 @@ section {
       }
       .left {
         flex: 0.9 1;
+        margin: 2rem;
       }
 
       .right {

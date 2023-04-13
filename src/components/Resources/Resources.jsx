@@ -15,7 +15,7 @@ function Resources(props) {
         <div className="training-list">
             <h3 className="title">{trainingList.title}</h3>
             <ul className="link-list">
-                <li><a href="/" className="link">{trainingList.link}</a></li>
+                <li><a href={trainingList.link} className="link" target="_blank" rel="noopener noreferrer">{trainingList.link}</a></li>
             </ul>
         </div>
     );

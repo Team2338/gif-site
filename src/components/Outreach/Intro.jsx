@@ -12,7 +12,7 @@ function Intro() {
                     <span>
                         <TypeWriter
                             options={{
-                                strings: ['Write', 'Something', 'Here'],
+                                strings: ['Building our diverse community with', 'Innovating for equality with', 'Increasing inclusivity with'],
                                 autoStart: true,
                                 loop:true
                             }}
