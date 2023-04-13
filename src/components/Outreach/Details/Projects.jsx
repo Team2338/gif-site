@@ -5,13 +5,18 @@ function Projects(props) {
     const project =
         [
             {
+                title: 'Robotics Day Legislation',
+                description: '',
+                image: ''
+            },
+            {
                 title:'CHUCK',
-                description:'Community Helping Utility Companion for Kickball. Adaptive PE Device for students with disabilities. Equity for teamwork and play.\n',
+                description:'Our Community Helping Utility Companion for Kickball is a device that we developed to increase equity in adaptive PE classes for students with limited mobility.',
                 image:'imgs/IMG_6258.JPG'
             },
             {
                 title:'Adaptive Toys',
-                description:'Converting battery operated toys for kids with physical disabilities.\n',
+                description:'We adapt toys by soldering an easy-press button onto them to provide equity and inclusivity to students with limited mobility.',
                 image:'imgs/IMG_007.JPG'
             },
             {
@@ -21,17 +26,17 @@ function Projects(props) {
             },
             {
                 title:'Women Who STEM Meetings',
-                description:'Monthly Meetings with Women working in STEM. Girls and allies are welcome. If you are interested in speaking at our meeting, please contact us.\n',
+                description:'We host monthly meetings that empower girls in FIRST and support them as they mentor the younger generation of STEM leaders.',
                 image:'imgs/gwhostem.jpg'
             },
             {
                 title:'Girl Scouts Workshop',
-                description:'Introducing local girl scouts grades 3-5 to STEM and FIRST Robotics',
+                description:'Introducing local girl scouts grades 3-5 to STEM and FIRST Robotics by teaching skills such as using hand tools, power tools, driving the robot, and educating them about available FLL programs.',
                 image:'imgs/jacker.png'
             },
             {
                 title:'Winter STEM Camp',
-                description:'Introducing girls grades 6-8 to STEM and FIRST Lego League',
+                description:'Introducing girls grades 6-8 to STEM and FIRST Lego League by hosting them at our shop and providing mentorship.',
                 image:'imgs/morestuff.png'
             }
         ];

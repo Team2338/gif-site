@@ -5,7 +5,7 @@ function UpcomingEvents() {
 
     const title =
         [
-            'Kick Off of 2023 reason',
+            'CHUCK Deliveries',
             'Title2',
             'a',
             'b'
@@ -13,7 +13,7 @@ function UpcomingEvents() {
     const titleList = title.map((title) =>
         <h5 className="event-title">{title}</h5>
     );
-    const date = ['12/02/2022', '1/1/2023', '23', '23'];
+    const date = ['Coming Soon', '1/1/2023', '23', '23'];
     const dateList = date.map((date) =>
         <h6 className="date">{date}</h6>
     );
