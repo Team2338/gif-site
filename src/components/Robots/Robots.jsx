@@ -6,9 +6,9 @@ function Robots(props) {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [
         {
-            title: "bige",
+            title: "Zephyr",
             img: "imgs/IMG_1755.JPG",
-            desc: "Michael is a sellout",
+            desc: "Our 2023 Robot for the Charged Up Game, Zephyr oajfoiawjeojfoawejfwoj oijefojaowejf",
             imgDesc: ""
         },
         {
