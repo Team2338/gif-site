@@ -8,12 +8,22 @@ function UpcomingEvents() {
             'CHUCK Deliveries',
             'Title2',
             'a',
-            'b'
+            'b',
+            'ajfowjofew'
         ];
+
     const titleList = title.map((title) =>
         <h5 className="event-title">{title}</h5>
     );
-    const date = ['Coming Soon', '1/1/2023', '23', '23'];
+
+    const date =
+        [
+            'Coming Soon',
+            '1/1/2023',
+            '23',
+            '23'
+        ];
+
     const dateList = date.map((date) =>
         <h6 className="date">{date}</h6>
     );

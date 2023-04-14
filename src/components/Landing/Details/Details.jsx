@@ -15,7 +15,7 @@ function Details(props) {
                     </p>
                 </div>
                 <div className="right">
-                    <img className="hayden" src="/imgs/IMG_1755.JPG" alt="" />
+                    <img className="hayden" src="/imgs/IMG_9249.jpeg" alt="" />
                 </div>
             </div>
             <div className="l2">

@@ -6,7 +6,7 @@ function Footer(props) {
         <footer className="cT">
             <div className="fL">
                 <p>
-                    2022 © 2338 Gear It Forward
+                    2023 © 2338 Gear It Forward
                 </p>
             </div>
             <div className="mR">

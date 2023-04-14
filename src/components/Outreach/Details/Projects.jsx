@@ -1,13 +1,18 @@
 import '../outreach.scss';
 
 function Projects(props) {
+    const hEssay = <div>We worked with Representative Stephanie Kiffowit to pass IL FIRST Day, H.Res 0564 this legislation is the 3rd Friday of every March and celebrates FIRST Robotics and STEM education. <br />
+
+        2338 is partnering with Congressperson Bill Foster to pass National FIRST Day, H.Res 183. It celebrates FIRST and STEM and encourages schools to use 1.17 billion dollars from the Every Student Succeeds Act to fund after-school robotics programs. Sign this <a href="https://www.change.org/p/national-first-robotics-day">petition</a> to show your support and help us to pass it! <br />
+
+        We are working with Representative Barbara Hernandez to pass House Bill 3752 which declares the 3rd Friday of every March as IL Robotics Day and acknowledges STEM education and Robotics programs.</div>
 
     const project =
         [
             {
                 title: 'Robotics Day Legislation',
-                description: '',
-                image: ''
+                description: hEssay,
+                image: 'imgs/jingle.jpeg'
             },
             {
                 title:'CHUCK',
@@ -40,6 +45,7 @@ function Projects(props) {
                 image:'imgs/morestuff.png'
             }
         ];
+
     const projectlist = project.map((project) =>
         <div className="box">
             <div className="left">

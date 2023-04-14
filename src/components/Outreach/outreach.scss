@@ -136,10 +136,24 @@ section {
         .description {
           font-size: 1.5rem;
           font-weight: 300;
+
+          a {
+            color: $orange;
+
+            &:hover {
+              color: #c83200;
+              font-weight: 400;
+              transition: ease 20ms;
+            }
+          }
         }
       }
 
       .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         img {
           //border: .5px solid $orange;
           border-radius: 8px;

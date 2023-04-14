@@ -3,6 +3,7 @@ import YouTube from 'react-youtube';
 import {Button} from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
+import {Architecture} from "@mui/icons-material";
 function CurrBot(props) {
 
     return (
