@@ -25,13 +25,13 @@ function Robots(props) {
         },
         {
             title: "Vanguard",
-            img: "imgs/bots/yesrer.jpg",
+            img: "imgs/bots/rembo.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Chef",
-            img: "imgs/bots/rembo.jpg",
+            img: "imgs/bots/yesrer.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
