@@ -7,28 +7,58 @@ function Robots(props) {
     const data = [
         {
             title: "Zephyr",
-            img: "imgs/IMG_1755.JPG",
+            img: "imgs/bots/2023bot.jpg",
             desc: "Our 2023 Robot for the Charged Up Game, Zephyr oajfoiawjeojfoawejfwoj oijefojaowejf",
             imgDesc: ""
         },
         {
-            title: "asddf",
-            img: "imgs/IMG_1755.JPG",
+            title: "Viper",
+            img: "imgs/bots/mickschumi.jpg",
             desc: "Michael is a sellout",
             imgDesc: "t"
         },
         {
-            title: "bige",
+            title: "Prowler",
+            img: "imgs/bots/yewre.jpg",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
+            title: "Vanguard",
+            img: "imgs/bots/yesrer.jpg",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
+            title: "Chef",
             img: "imgs/IMG_1755.JPG",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
-            title: "bige",
+            title: "Flatline",
             img: "imgs/IMG_1755.JPG",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
+        {
+            title: "Flynn Rider",
+            img: "imgs/IMG_1755.JPG",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
+            title: "Phantom",
+            img: "imgs/IMG_1755.JPG",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
+            title: "Fumper",
+            img: "imgs/IMG_1755.JPG",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        }
     ]
 
     const handleClick = (way) => {
@@ -42,7 +72,7 @@ function Robots(props) {
             <div
                 className="slider"
                 style={{ transform: `translateX(-${currentSlide * 100}vw` }}
-            >
+            > 
                 {data.map((d) => (
                     <div className="container">
                         <div className="item">

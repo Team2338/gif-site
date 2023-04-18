@@ -141,9 +141,7 @@ section {
             color: $orange;
 
             &:hover {
-              color: #c83200;
-              font-weight: 400;
-              transition: ease 20ms;
+              text-decoration: underline;
             }
           }
         }

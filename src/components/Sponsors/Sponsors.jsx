@@ -5,5 +5,6 @@ function Sponsors(props) {
         <div></div>
     );
 }
+//TODO: Add sponsors
 
 export default Sponsors;
