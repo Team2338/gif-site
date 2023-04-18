@@ -1,4 +1,5 @@
 import './resources.scss';
+import YouTube from "react-youtube";
 
 function Resources(props) {
 
@@ -59,6 +60,12 @@ function Resources(props) {
             <div className="content2">
                 <h2 className="title">Game Manual</h2>
                 {gameManualList}
+            </div>
+
+            <div className="content2">
+                <h2 className="title">STEM Kit Tutorials</h2>
+                <YouTube videoId="Cw_YeJBZF5g" className="youtube" />
+                <YouTube videoId="wOZ_epEZz6Y" className="youtube" />
             </div>
         </section>
     );

@@ -6,29 +6,59 @@ function Robots(props) {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [
         {
-            title: "bige",
-            img: "imgs/IMG_1755.JPG",
-            desc: "Michael is a sellout",
+            title: "Zephyr",
+            img: "imgs/bots/2023bot.jpg",
+            desc: "Charged Up",
             imgDesc: ""
         },
         {
-            title: "asddf",
-            img: "imgs/IMG_1755.JPG",
+            title: "Viper",
+            img: "imgs/bots/mickschumi.jpg",
             desc: "Michael is a sellout",
             imgDesc: "t"
         },
         {
-            title: "bige",
-            img: "imgs/IMG_1755.JPG",
+            title: "Prowler",
+            img: "imgs/bots/yewre.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
-            title: "bige",
-            img: "imgs/IMG_1755.JPG",
+            title: "Vanguard",
+            img: "imgs/bots/rembo.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
+        {
+            title: "Chef",
+            img: "imgs/bots/yesrer.jpg",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
+            title: "Flatline",
+            img: "imgs/bots/flynn.jpg",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
+            title: "Flynn Rider",
+            img: "imgs/bots/2016bot.jpg",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
+            title: "Phantom",
+            img: "imgs/bots/patrick2015.jpg",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
+            title: "Fumper",
+            img: "imgs/bots/2014bot.jpg",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        }
     ]
 
     const handleClick = (way) => {
@@ -42,14 +72,13 @@ function Robots(props) {
             <div
                 className="slider"
                 style={{ transform: `translateX(-${currentSlide * 100}vw` }}
-            >
+            > 
                 {data.map((d) => (
                     <div className="container">
                         <div className="item">
                             <div className="left">
                                 <div className="leftContainer">
                                     <h2>{d.title}</h2>
-                                    <p>{d.desc}</p>
                                 </div>
                             </div>
                             <div className="right">

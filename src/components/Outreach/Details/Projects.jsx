@@ -1,17 +1,27 @@
 import '../outreach.scss';
 
 function Projects(props) {
+    const hEssay = <div>We worked with Representative Stephanie Kiffowit to pass IL FIRST Day, H.Res 0564 this legislation is the 3rd Friday of every March and celebrates FIRST Robotics and STEM education. <br />
+
+        2338 is partnering with Congressperson Bill Foster to pass National FIRST Day, H.Res 183. It celebrates FIRST and STEM and encourages schools to use 1.17 billion dollars from the Every Student Succeeds Act to fund after-school robotics programs. Sign this <a href="https://www.change.org/p/national-first-robotics-day">petition</a> to show your support and help us to pass it! <br />
+
+        We are working with Representative Barbara Hernandez to pass House Bill 3752 which declares the 3rd Friday of every March as IL Robotics Day and acknowledges STEM education and Robotics programs.</div>
 
     const project =
         [
             {
+                title: 'Robotics Day Legislation',
+                description: hEssay,
+                image: 'imgs/jingle.jpeg'
+            },
+            {
                 title:'CHUCK',
-                description:'Community Helping Utility Companion for Kickball. Adaptive PE Device for students with disabilities. Equity for teamwork and play.\n',
+                description:'Our Community Helping Utility Companion for Kickball is a device that we developed to increase equity in adaptive PE classes for students with limited mobility.',
                 image:'imgs/IMG_6258.JPG'
             },
             {
                 title:'Adaptive Toys',
-                description:'Converting battery operated toys for kids with physical disabilities.\n',
+                description:'We adapt toys by soldering an easy-press button onto them to provide equity and inclusivity to students with limited mobility.',
                 image:'imgs/IMG_007.JPG'
             },
             {
@@ -21,20 +31,21 @@ function Projects(props) {
             },
             {
                 title:'Women Who STEM Meetings',
-                description:'Monthly Meetings with Women working in STEM. Girls and allies are welcome. If you are interested in speaking at our meeting, please contact us.\n',
+                description:'We host monthly meetings that empower girls in FIRST and support them as they mentor the younger generation of STEM leaders.',
                 image:'imgs/gwhostem.jpg'
             },
             {
                 title:'Girl Scouts Workshop',
-                description:'Introducing local girl scouts grades 3-5 to STEM and FIRST Robotics',
+                description:'Introducing local girl scouts grades 3-5 to STEM and FIRST Robotics by teaching skills such as using hand tools, power tools, driving the robot, and educating them about available FLL programs.',
                 image:'imgs/jacker.png'
             },
             {
                 title:'Winter STEM Camp',
-                description:'Introducing girls grades 6-8 to STEM and FIRST Lego League',
+                description:'Introducing girls grades 6-8 to STEM and FIRST Lego League by hosting them at our shop and providing mentorship.',
                 image:'imgs/morestuff.png'
             }
         ];
+
     const projectlist = project.map((project) =>
         <div className="box">
             <div className="left">

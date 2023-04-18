@@ -6,6 +6,7 @@
         height: 80vh;
         display: flex;
         flex-direction: row;
+        margin-bottom: 3vh;
 
         .left {
             flex: 0.5;
@@ -32,14 +33,14 @@
             .wrapper {
                 .mini {
                     font-size: 2.5rem;
-                    color: $grey;
+                    color: $offwhite;
                     padding: 3vh;
                 }
 
                 .extraMini {
-                    font-size: 1.2rem;
+                    font-size: 1.15rem;
                     font-weight: 300;
-                    color: $offwhite;
+                    color: $grey;
                     line-height: 3em;
                 }
 
