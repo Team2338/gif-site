@@ -6,10 +6,6 @@ function UpcomingEvents() {
     const title =
         [
             'CHUCK Deliveries',
-            'Title2',
-            'a',
-            'b',
-            'ajfowjofew'
         ];
 
     const titleList = title.map((title) =>
@@ -19,9 +15,6 @@ function UpcomingEvents() {
     const date =
         [
             'Coming Soon',
-            '1/1/2023',
-            '23',
-            '23'
         ];
 
     const dateList = date.map((date) =>

@@ -8,7 +8,7 @@ function Robots(props) {
         {
             title: "Zephyr",
             img: "imgs/bots/2023bot.jpg",
-            desc: "Our 2023 Robot for the Charged Up Game, Zephyr oajfoiawjeojfoawejfwoj oijefojaowejf",
+            desc: "Charged Up",
             imgDesc: ""
         },
         {
@@ -31,31 +31,31 @@ function Robots(props) {
         },
         {
             title: "Chef",
-            img: "imgs/IMG_1755.JPG",
+            img: "imgs/bots/rembo.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Flatline",
-            img: "imgs/IMG_1755.JPG",
+            img: "imgs/bots/flynn.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Flynn Rider",
-            img: "imgs/IMG_1755.JPG",
+            img: "imgs/bots/2016bot.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Phantom",
-            img: "imgs/IMG_1755.JPG",
+            img: "imgs/bots/patrick2015.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Fumper",
-            img: "imgs/IMG_1755.JPG",
+            img: "imgs/bots/2014bot.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         }
@@ -79,7 +79,6 @@ function Robots(props) {
                             <div className="left">
                                 <div className="leftContainer">
                                     <h2>{d.title}</h2>
-                                    <p>{d.desc}</p>
                                 </div>
                             </div>
                             <div className="right">
