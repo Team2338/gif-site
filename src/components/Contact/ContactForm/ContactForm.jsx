@@ -1,6 +1,9 @@
 import '../contact.scss';
 import '../../../globals.scss';
-import {Mail,LocationOnSharp} from '@material-ui/icons';
+import {
+    LocationOnSharp,
+    Mail
+} from '@mui/icons-material';
 
 function ContactForm() {
     return (

@@ -1,12 +1,17 @@
 import './footer.scss';
-import {GitHub, Instagram, Twitter, YouTube} from "@material-ui/icons";
+import {
+  GitHub,
+  Instagram,
+  Twitter,
+  YouTube
+} from '@mui/icons-material';
 
 function Footer(props) {
     return (
         <footer className="cT">
             <div className="fL">
                 <p>
-                    2023 © 2338 Gear It Forward
+                    © 2023 Gear It Forward
                 </p>
             </div>
             <div className="mR">

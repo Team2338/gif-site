@@ -1,6 +1,9 @@
 import './robots.scss';
+import {
+    ArrowBack,
+    ArrowForward
+} from '@mui/icons-material';
 import {useState} from "react";
-import {ArrowBack, ArrowForward} from "@material-ui/icons";
 
 function Robots(props) {
     const [currentSlide, setCurrentSlide] = useState(0);
