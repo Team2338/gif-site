@@ -6,28 +6,11 @@ import Robots from "./components/Robots/Robots";
 import NotFound from "./components/NotFound/NotFound";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Contact from "./components/Contact/Contact";
+// import Contact from "./components/Contact/Contact";
 import Resources from "./components/Resources/Resources";
-import {useEffect} from "react";
 
 
 function App() {
-
-  const[red, green, blue] = [0, 36, 62]
-  const section = document.querySelector('.App')
-  const listenScrollEvent = (event) => {
-    let y = 0;
-    y = 1 + (window.scrollY || window.pageYOffset) / 900
-    const [r, g, b] = [red / y, green / y, blue / y].map(Math.round)
-    section.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
-  }
-
-  useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent);
-
-    return () =>
-        window.removeEventListener('scroll', listenScrollEvent);
-  }, [])
 
   let Component;
   switch (window.location.pathname) {
@@ -43,9 +26,10 @@ function App() {
     case "/robots":
       Component = Robots;
       break;
-    case "/contact":
-      Component = Contact;
-      break;
+      // TODO: Re-enable once actually working
+    // case "/contact":
+    //   Component = Contact;
+    //   break;
     case "/resources":
       Component = Resources;
       break;
