@@ -11,6 +11,7 @@
     border: 1px solid $orange;
     margin-bottom: 5vh;
   }
+  font-family: "Segoe UI Normal"!important;
 }
 
 .section {
@@ -19,6 +20,7 @@
   padding-top: 5vh;
 
   .content {
+    font-family: "Segoe UI Normal"!important;
     display: flex;
 
     .right {
@@ -74,6 +76,7 @@
 }
 
 .close-button {
+  font-family: "Segoe UI Normal"!important;
   padding: 0px 0px;
   background: #FFF;
   border: none;
@@ -107,12 +110,14 @@
     margin: 10px 0;
     color: white;
     position: relative;
+    font-family: "Segoe UI Normal"!important;
   }
 
   h2 {
     font-size: 40px;
     color: #FE5000;
     position: relative;
+    font-family: "Segoe UI Normal"!important;
   }
 
   h3 {
@@ -120,6 +125,7 @@
     color: #FE5000;
     position: relative;
     margin: 10px;
+    font-family: "Segoe UI Normal"!important;
 
     span {
       margin-top: 10px;
@@ -136,6 +142,7 @@
 }
 
 .a {
+  font-family: "Segoe UI Normal"!important;
   position: absolute;
   bottom: 270px;
   font-size: large;
@@ -161,10 +168,11 @@
 
 
 .intro-section{
+  font-family: "Segoe UI Normal"!important;
   height: 20vh !important;
 
   .content {
-
+    font-family: "Segoe UI Normal"!important;
     .left {
       flex: 0.6 1;
       overflow: hidden;

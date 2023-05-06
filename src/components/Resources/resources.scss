@@ -1,6 +1,7 @@
 @import "../../globals";
 
 .resources {
+  font-family: "Segoe UI Normal"!important;
   .content2 {
     margin-left: 50px;
     margin-top: 4rem;
@@ -40,6 +41,7 @@
         margin-top: 1rem;
         font-size: 23px;
         color: $offwhite;
+        font-family: "Segoe UI Normal"!important;
       }
 
       .link-list {
@@ -51,6 +53,7 @@
           color: $grey;
           text-decoration: underline;
           margin-left: 10px!important;
+          font-family: "Segoe UI Normal"!important;
           &:hover {
             color: $orange;
             transition: .2s ease;

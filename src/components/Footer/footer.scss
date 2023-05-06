@@ -2,6 +2,7 @@
 
 *{
     color: $offwhite;
+    font-family: "Segoe UI Normal"!important;
     &:hover {
         color: $owHighlight;
         transition: 100ms ease;
@@ -9,6 +10,7 @@
 }
 
 .cT {
+    font-family: "Segoe UI Normal"!important;
     color: $offwhite;
     font-size: 1.5vh;
     font-weight: 200;
@@ -29,6 +31,7 @@
     .mR {
         width: 50vw;
         ul {
+            font-family: "Segoe UI Normal"!important;
             padding-right: 2vw;
             padding-left: 2vw;
             margin: 0;
@@ -45,6 +48,7 @@
         .sMLinks {
             padding-left: 1rem;
             a {
+                font-family: "Segoe UI Normal"!important;
                 font-weight: 200;
                 color: $offwhite;
                 font-size: 18px;

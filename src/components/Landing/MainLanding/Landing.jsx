@@ -11,7 +11,7 @@ function Landing(props) {
                 <div className="right">
                     <div className="wrapper">
                         <h2>We are</h2>
-                        <h1>Team 2338: Gear It Forward</h1>
+                        <h1>Team <span>2338</span>: Gear It Forward</h1>
                         <h3>A FIRST Robotics Competition Team <br />from Oswego, Illinois
                             <span>
                                 <TypeWriter
