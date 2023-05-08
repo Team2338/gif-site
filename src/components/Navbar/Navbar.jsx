@@ -22,6 +22,7 @@ function Navbar(props) {
                     <li className="nav-links"><a href="/outreach">Outreach</a></li>
                     <li className="nav-links"><a href="/robots">Robots</a></li>
                     <li className="nav-links"><a href="/resources">Resources</a></li>
+                    <li className="nav-links"><a href="/sponsors">Sponsors</a></li>
                 </ul>
             </nav>
         </div>

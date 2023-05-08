@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 // import Contact from "./components/Contact/Contact";
 import Resources from "./components/Resources/Resources";
+import Sponsors from "./components/Sponsors/Sponsors";
 
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
     //   break;
     case "/resources":
       Component = Resources;
+      break;
+    case "/sponsors":
+      Component = Sponsors;
       break;
     default:
       Component = NotFound;
