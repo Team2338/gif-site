@@ -3,7 +3,7 @@
 .Landing {
 
     .Content {
-        height: 80vh;
+        height: 86vh;
         display: flex;
         flex-direction: row;
 
@@ -15,7 +15,7 @@
             margin: 30px;
 
             img {
-                scale: 0.75;
+                scale: 0.95;
                 border-radius: 0.5rem;
             }
         }
@@ -40,7 +40,7 @@
                     margin: 10px 0;
                     color: $offwhite;
                     position: relative;
-                    font-family: "Segoe UI Normal"!important;
+                    font-family: "Segoe UI Normal" !important;
 
                     span {
                         font-family: "Amaz Oostrov Sub-Logo" !important;
@@ -73,6 +73,7 @@
                     position: absolute;
                     padding-right: 5vw;
                     opacity: 0.125;
+                    margin-top: 2rem;
                 }
             }
         }

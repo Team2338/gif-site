@@ -2,6 +2,7 @@
 
 .resources {
   font-family: "Segoe UI Normal"!important;
+
   .content2 {
     margin-left: 50px;
     margin-top: 4rem;
@@ -16,12 +17,14 @@
       font-size: 33px;
       font-weight: 400;
       color: $orange;
+      font-family: "Segoe UI Normal"!important;
     }
     .training-list {
       margin-top: 1rem;
       .title {
         font-size: 23px;
         color: $offwhite;
+        font-family: "Segoe UI Normal"!important;
       }
       .link-list {
         padding-top: 10px;
@@ -29,6 +32,7 @@
       .link {
         color: $grey;
         text-decoration: underline;
+        font-family: "Segoe UI Normal"!important;
          &:hover {
            color: $orange;
            transition: .2s ease;
@@ -41,13 +45,14 @@
         margin-top: 1rem;
         font-size: 23px;
         color: $offwhite;
-        font-family: "Segoe UI Normal"!important;
+        font-family: "Segoe UI Bold Italic"!important;
       }
 
       .link-list {
         .sub-title {
           font-weight: 300;
           margin-top: 9px;
+          font-family: "Segoe UI Normal"!important;
         }
         .link {
           color: $grey;

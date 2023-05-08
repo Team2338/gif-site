@@ -22,12 +22,19 @@
   .content {
     font-family: "Segoe UI Normal"!important;
     display: flex;
+    margin-top: 1.5rem !important;
 
     .right {
       flex: 0.2;
       overflow: hidden;
       justify-content: center;
       display: flex;
+
+      .image-circle{
+        border-radius: .5rem;
+        height: 35vh;
+        width: 35vh;
+      }
     }
 
     .left{
@@ -64,13 +71,6 @@
           transition: .3s ease;
         }
       }
-    }
-
-    .image-circle{
-      border: 1px solid $orange;
-      border-radius: 50%;
-      height: 30vh;
-      width: 30vh;
     }
   }
 }
