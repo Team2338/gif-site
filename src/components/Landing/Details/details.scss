@@ -15,6 +15,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        font-family: "Segoe UI Normal"!important;
 
         .left {
             flex: 0.5;
@@ -22,6 +23,7 @@
             flex-direction: column;
             justify-content: center;
             position: relative;
+            font-family: "Segoe UI Normal"!important;
 
             svg {
                 position: absolute;
@@ -36,11 +38,13 @@
                 font-size: 10vh;
                 position: relative;
                 color: $offwhite;
+                font-family: "Segoe UI Normal"!important;
             }
 
             p {
                 font-size: 1.25rem;
                 font-weight: 300;
+                font-family: "Segoe UI Normal"!important;
             }
         }
 
