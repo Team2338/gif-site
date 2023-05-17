@@ -20,19 +20,12 @@
 
   .content {
     display: flex;
-    margin-top: 25px;
 
     .right {
-      flex: 0.4;
+      flex: 0.2;
       overflow: hidden;
       justify-content: center;
       display: flex;
-      margin-top: -25px;
-      .image-circle{
-        border-radius: .5rem;
-        height: 40vh;
-        width: 45vh;
-      }
     }
 
     .left{
@@ -69,6 +62,13 @@
           transition: .3s ease;
         }
       }
+    }
+
+    .image-circle{
+      border: 1px solid $orange;
+      border-radius: 50%;
+      height: 30vh;
+      width: 30vh;
     }
   }
 }
