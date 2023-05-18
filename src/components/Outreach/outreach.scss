@@ -138,6 +138,9 @@ section {
           font-size: 1.5rem;
           font-weight: 300;
           color: $grey;
+          div {
+            color: $grey;
+          }
           a {
             color: $orange;
 
