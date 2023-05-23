@@ -34,7 +34,7 @@
                 .mini {
                     font-size: 2.5rem;
                     color: $offwhite;
-                    padding: 3vh;
+                    padding: 1vh;
                 }
 
                 .extraMini {
@@ -48,12 +48,13 @@
                     position: absolute;
                     padding-right: 5vw;
                     opacity: 0.125;
-                    scale: 0.8;
+                    scale: .97;
                 }
             }
 
             .buttons {
                 .db {
+                    margin-top: 2vw;
                     margin-left: 1vw;
                     margin-right: 1vw;
                 }
