@@ -50,7 +50,7 @@ section {
       padding-top: 2rem;
 
       img {
-        //border: .8px solid $orange;
+        border: .8px solid $orange;
         border-radius: 8px;
       }
     }
@@ -127,16 +127,17 @@ section {
 
         .title {
           font-size: 2rem;
-          color: $offwhite;
         }
 
         .description {
           font-size: 1.5rem;
           font-weight: 300;
           color: $grey;
+          
           div {
             color: $grey;
           }
+          
           a {
             color: $orange;
 

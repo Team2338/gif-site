@@ -1,7 +1,6 @@
 @import "../../globals";
 
 .Robots {
-    font-family: "Segoe UI Normal"!important;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -10,7 +9,6 @@
     overflow-x: hidden;
 
     .arrow {
-        font-family: "Segoe UI Normal"!important;
         height: 50px;
         position: absolute;
         cursor: pointer;
@@ -35,7 +33,6 @@
     }
 
     .slider {
-        font-family: "Segoe UI Normal"!important;
         height: 75vh;
         display: flex;
         position: absolute;
@@ -43,7 +40,6 @@
         transition: all 1s ease-out;
 
         .container {
-            font-family: "Segoe UI Normal"!important;
             width: 100vw;
             display: flex;
             align-items: center;
