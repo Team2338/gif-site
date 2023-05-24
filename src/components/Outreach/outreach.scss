@@ -72,6 +72,7 @@ section {
   .row {
     background-color: $offblue;
     border-radius: 20px;
+    border: 1px solid $orange;
   }
   .row:after {
     content: "";
@@ -83,7 +84,6 @@ section {
     width: 50%;
     padding: 17px;
     text-align: center;
-
 
     .event-title {
       font-size: 20px;
@@ -120,11 +120,7 @@ section {
       margin-bottom: 4rem;
       background: $offblue;
       border-radius: 3vh;
-      border: 1px solid $offblue;
-
-      &:hover {
-        border: 1px solid $offBlack;
-      }
+      border: 1px solid $orange;
       .left {
         flex: 0.9 1;
         margin: 2rem;
@@ -136,7 +132,12 @@ section {
         .description {
           font-size: 1.5rem;
           font-weight: 300;
-
+          color: $grey;
+          
+          div {
+            color: $grey;
+          }
+          
           a {
             color: $orange;
 

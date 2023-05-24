@@ -26,6 +26,13 @@
       overflow: hidden;
       justify-content: center;
       display: flex;
+      margin-top: -25px;
+      
+      .image-circle{
+        border-radius: 50%;//.5rem;
+        height: 41vh;
+        width: 45vh;
+      }
     }
 
     .left{
