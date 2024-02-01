@@ -21,7 +21,7 @@ function Resources(props) {
         </div>
     );
 
-    const gameManual =
+    const gameManual1 =
         [
             {
                 title:'Charged Up',
@@ -29,7 +29,15 @@ function Resources(props) {
             }
         ];
 
-    const gameManualList = gameManual.map((gameManual) =>
+    const gameManual2 = 
+        [
+            {
+                title:'Cresendo',
+                manualSheet: 'https://firstfrc.blob.core.windows.net/frc2024/Manual/2024GameManual.pdf'
+            }
+        ]
+
+    const gameManualList = gameManual1.map((gameManual) =>
         <div className="game-manual">
             <h3 className="title">{gameManual.title}</h3>
             <ul className="link-list">

@@ -22,12 +22,12 @@ function Projects(props) {
             {
                 title:'Adaptive Toys',
                 description:'We adapt toys by soldering an easy-press button onto them to provide equity and inclusivity to students with limited mobility.',
-                image:'imgs/IMG_007.JPG'
+                image:'imgs/Outreach.jpg'
             },
             {
                 title:'STEM Kits',
                 description:'Supplying Hand-on Science to English Language Learner students at Title I Schools. If you are interested in sponsoring our efforts to provide hands-on science to young kids, please contact us.',
-                image:'imgs/STEM Kits1.jpg'
+                image:'imgs/2024StemKits.JPG'
             },
             {
                 title:'Women Who STEM Meetings',
