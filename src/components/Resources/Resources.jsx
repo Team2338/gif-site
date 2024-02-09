@@ -10,7 +10,15 @@ function Resources(props) {
             {title:'Electrical and Pneumatic', link: 'https://docs.google.com/presentation/d/1x96gFhPWDvMWr5J5pqoGCzfVo92FctSnWkIrQmdEDYw/edit?usp=sharing'},
             {title:'CNC and 3D Printing', link: 'https://docs.google.com/presentation/d/1Cv7Ap5B4SgIoHz9h0dALMNkhZ550HTuLW1ys1SMD-LQ/edit?usp=sharing'},
             {title: 'Mechanical', link: 'https://docs.google.com/presentation/d/1GzQEJDRBCvkgA3xZ6xhBBtawRmBGkCCD3_DMwpfYIDo/edit?usp=sharing'},
-            {title: 'CAD', link: 'https://docs.google.com/presentation/d/1HFqfQEvqVkQ5cjvVXXWbh_bm24Vt3cP2IqLf0Le6Ggw/edit?usp=sharing'}
+            {title: 'CAD', link: 'https://docs.google.com/presentation/d/1HFqfQEvqVkQ5cjvVXXWbh_bm24Vt3cP2IqLf0Le6Ggw/edit?usp=sharing'},
+            {title: "Leading Forward Team 2338", link: "https://docs.google.com/presentation/d/1JAXmAvkKAljW9zw3gDu0LKPWYtQqo8bnemvJ7dXqgMI/edit#slide=id.g100f4491493_0_97"},
+            {title: "2338 University: Intro to Leadership", link: 'https://docs.google.com/presentation/d/1JAXmAvkKAljW9zw3gDu0LKPWYtQqo8bnemvJ7dXqgMI/edit#slide=id.g100f4491493_0_97'},
+            {title: "2338 University: Democratic Leadership", link: 'https://docs.google.com/presentation/d/12TKHMBIboVXqnxOpBvOODVZyZj4oXNvaDyWvgaeDOug/edit#slide=id.g100f4491493_0_97'},
+            {title: "2338 University: Facilitate Leadership", link: 'https://docs.google.com/presentation/d/1gCTqMUu0bk4fDiDsZGNK-fAxUgsy2DrzC_SmQoOhAU4/edit#slide=id.p'},
+            {title: "2338 University: Wrap Up", link: 'https://docs.google.com/presentation/d/1PhJr4OiD2SqDyL-zaZTd3zi5fpxvyJAR-QXO-TZZMGo/edit#slide=id.g2a853c45fc1_0_100'},
+            {title: "2338 University: Situational Leadership", link: "https://docs.google.com/presentation/d/1M5MqbtEN3k8x1dHNIasrppiS2xUdumAYEVLNLqvvwrE/edit#slide=id.g2a5c6815aa9_0_355"},
+            {title: "2338 University: Wrap Up", link: 'https://docs.google.com/presentation/d/1PhJr4OiD2SqDyL-zaZTd3zi5fpxvyJAR-QXO-TZZMGo/edit#slide=id.g2a853c45fc1_0_100'},
+            {title: "Contact Representatives", link: 'https://docs.google.com/document/d/15nTv8GJJMAUV7l1lWpy2UOz-ZYezFKDm5isk6YLvJnE/edit'}
         ];
     const training = trainingList.map((trainingList) =>
         <div className="training-list">
@@ -21,23 +29,15 @@ function Resources(props) {
         </div>
     );
 
-    const gameManual1 =
+    const gameManual = 
         [
             {
-                title:'Charged Up',
-                manualSheet:'https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf'
-            }
-        ];
-
-    const gameManual2 = 
-        [
-            {
-                title:'Cresendo',
+                title:'Crescendo',
                 manualSheet: 'https://firstfrc.blob.core.windows.net/frc2024/Manual/2024GameManual.pdf'
             }
         ]
 
-    const gameManualList = gameManual1.map((gameManual) =>
+    const gameManualList = gameManual.map((gameManual) =>
         <div className="game-manual">
             <h3 className="title">{gameManual.title}</h3>
             <ul className="link-list">
