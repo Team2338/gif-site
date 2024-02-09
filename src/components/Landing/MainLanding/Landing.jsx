@@ -6,7 +6,7 @@ function Landing(props) {
         <div className="Landing" id="landing">
             <div className="Content">
                 <div className="left">
-                    <img alt="" src="imgs/C29857E4-E6D0-4057-B994-A80B1CE98616_1_105_c.jpeg"/>
+                    <img alt="" src="imgs/2024FullTeam.jpg"/>
                 </div>
                 <div className="right">
                     <div className="wrapper">

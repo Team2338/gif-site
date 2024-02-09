@@ -7,7 +7,7 @@ function MechanicalTeam() {
         <section className="section after-blue mechaicalCaptain-section">
             <div className="content">
                 <div className="right">
-                    <img src="imgs/IMG_3165.jpeg" alt="Captain Photo" className="image-circle" />
+                    <img src="imgs/Mechanical2024.jpg" alt="Captain Photo" className="image-circle" />
                 </div>
                 <div className="left gray-part">
                     <h1 className="captain-title">Mechanical</h1>
