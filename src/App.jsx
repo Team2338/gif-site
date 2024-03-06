@@ -8,7 +8,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import Resources from "./components/Resources/Resources";
-import {useEffect} from "react";
+import { Alert, Snackbar, SnackbarContent, useMediaQuery } from '@mui/material';
+
 
 
 function App() {
@@ -38,12 +39,17 @@ function App() {
       break;
   }
 
+  const smallScreen = useMediaQuery('(orientation: portrait)')
+
   return (
     <div className="App">
       <Navbar />
       <div className="sections">
         <Component />
         <Footer />
+        <Snackbar open={smallScreen}>
+          <SnackbarContent message='Please rotate your device to see the content.' / >
+        </Snackbar>
       </div>
     </div>
   );
