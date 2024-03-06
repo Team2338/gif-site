@@ -7,6 +7,10 @@
         display: flex;
         flex-direction: row;
 
+        @media (max-width: 1280px) {
+            flex-direction: column;
+        }
+
         .left {
             flex: 0.4;
             overflow: hidden;
@@ -40,6 +44,13 @@
                     margin: 10px 0;
                     color: $offwhite;
                     position: relative;
+
+                    @media (max-width: 1280px) {
+                        font-size: 35px;
+                        margin: 10px 0;
+                        color: $offwhite;
+                        position: relative;
+                    }
                 }
 
                 h2 {

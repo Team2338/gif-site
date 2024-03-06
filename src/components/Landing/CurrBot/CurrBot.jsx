@@ -42,4 +42,4 @@ function CurrBot(props) {
     );
 }
 
-export default CurrBot;
+export default CurrBot; 

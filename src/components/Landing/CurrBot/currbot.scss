@@ -1,33 +1,41 @@
 @import "../../../globals";
 
 .currBot {
-
     .Content {
         height: 80vh;
         display: flex;
-        flex-direction: row;
-        margin-bottom: 3vh;
+        flex-direction: row; // Default to column for mobile
 
-        .left {
-            flex: 0.5;
-            overflow: hidden;
-            justify-content: center;
-            position: relative;
-            align-items: center;
-            display: flex;
+        // Use MUI media query to change flex-direction for larger screens
+        @media (max-width: 1280px) {
+            flex-direction: column;
 
-            .youtube {
-            }
         }
 
+        margin-bottom: 3vh;
+
+        .left,
         .right {
-            flex: 0.5;
+            flex: 1;
             overflow: hidden;
-            display: flex;
-            flex-direction: column;
             position: relative;
-            justify-content: center;
             align-items: center;
+            display: flex;
+
+           
+                
+                    .youtube {
+                        @media (max-width: 1280px) {
+                           scale: 1;  
+                           padding-right: 1vh;
+                           
+                        }
+                    }
+            }
+        }
+    }
+
+        .right {
             margin-bottom: 2vh;
 
             .wrapper {
@@ -35,20 +43,33 @@
                     font-size: 2.5rem;
                     color: $offwhite;
                     padding: 1vh;
+
+                    @media(max-width:1280px){
+                        font-size: 1.5rem;
+                        color: $offwhite;
+                        padding-top: 7vh;
+                    }
                 }
 
                 .extraMini {
-                    font-size: 1.15rem;
+                    font-size: 1rem;
                     font-weight: 300;
                     color: $grey;
                     line-height: 3em;
-                }
+
+                    @media(max-width:1280px){
+                        font-size: .70rem;
+                        font-weight: 300;
+                        color: $grey;
+                        line-height: 3em;
+                    }
+                }   
 
                 svg {
                     position: absolute;
                     padding-right: 5vw;
                     opacity: 0.125;
-                    scale: .97;
+                    transform: scale(0.97); // Corrected property name
                 }
             }
 
@@ -58,7 +79,8 @@
                     margin-left: 1vw;
                     margin-right: 1vw;
                 }
+
             }
         }
-    }
-}
+
+

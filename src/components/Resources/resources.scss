@@ -4,6 +4,9 @@
   .content2 {
     margin-left: 50px;
     margin-top: 4rem;
+    @media(max-width:1280px){
+      display: column;
+    }
 
     .youtube {
       padding: 1vh;
@@ -24,6 +27,10 @@
       }
       .link-list {
         padding-top: 10px;
+      }
+      @media(max-width:1280px){
+        padding-top: 1px;
+        display: column;
       }
       .link {
         color: $grey;
@@ -59,4 +66,7 @@
       }
     }
   }
-}
+  @media(max-width:1280px){
+    display: column;
+  }
+}       
