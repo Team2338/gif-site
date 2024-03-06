@@ -26,17 +26,24 @@ section {
   .content {
     display: flex;
     margin-left: 50px;
-
     .left {
       flex: .68 1;
       margin-left: 13rem;
       padding-right: 1rem;
+
+      @media(max-width:1280px){
+        margin-left: 1rem;
+        display: column;
+      }
       .title {
         font-size: 33px;
         font-weight: 400;
         span {
           color: $orange;
           font-weight: 300;
+        }
+        @media(max-width:1280px){
+            font-family: 23px;
         }
         .question-mark {
           font-size: 25px;
@@ -52,7 +59,14 @@ section {
       img {
         border: .8px solid $orange;
         border-radius: 8px;
+        
+        @media(max-width:1280px){
+          display: column;
+        }
       }
+    }
+    @media(max-width:1280px){
+      display: column;
     }
   }
 }
@@ -60,6 +74,10 @@ section {
 .upcoming-events {
   margin-left: 16rem;
   margin-right: 16rem;
+
+  @media(max-width:1280px){
+    margin-left: 3rem;
+  }
   .event-header {
     font-weight: 400;
     font-size: 33px;
@@ -73,6 +91,11 @@ section {
     background-color: $offblue;
     border-radius: 20px;
     border: 1px solid $orange;
+
+    @media(max-width:1280px){
+      border-radius: 20px;
+      width: 110px;
+    }
   }
   .row:after {
     content: "";
@@ -84,6 +107,11 @@ section {
     width: 50%;
     padding: 17px;
     text-align: center;
+
+    @media(max-width:1280px){
+      width: 100px;
+    }
+
 
     .event-title {
       font-size: 20px;
@@ -105,6 +133,9 @@ section {
   .content {
     margin-left: 16rem;
     margin-right: 16rem;
+    @media(max-width:1280px){
+      margin-left: 3rem;
+    }
 
     .title {
       margin-bottom: 1.5rem;
@@ -121,9 +152,18 @@ section {
       background: $offblue;
       border-radius: 3vh;
       border: 1px solid $orange;
+
+      @media(max-width:1280px){
+        width: 500px;
+        display:column
+      }
       .left {
         flex: 0.9 1;
         margin: 2rem;
+        @media(max-width:1280px){
+          display: column;
+          margin: 10px;
+        }
 
         .title {
           font-size: 2rem;
@@ -133,6 +173,9 @@ section {
           font-size: 1.5rem;
           font-weight: 300;
           color: $grey;
+          @media(max-width:1280px){
+            font-size: 1rem;
+          }
           
           div {
             color: $grey;

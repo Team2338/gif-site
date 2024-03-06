@@ -4,7 +4,7 @@ import TypeWriter from "typewriter-effect";
 function Landing(props) {
     return (
         <div className="Landing" id="landing">
-            <div className="Content">
+            <div className="Content">   
                 <div className="left">
                     <img alt="" src="imgs/2024FullTeam.jpg"/>
                 </div>
