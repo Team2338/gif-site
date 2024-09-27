@@ -11,7 +11,10 @@ function MarketingTeam() {
                 </div>
                 <div className="left gray-part">
                     <h1 className="captain-title">Marketing</h1>
-                    <p className="sub-paragraph">Develops and manages rollout of new initiatives and campaigns, uses social media to reach stakeholders, builds and maintains 2338’s brand, researches potential and connects with new partnerships that align with 2338’s mission that #FIRSTisForEveryone.</p>
+                    <p className="sub-paragraph">Our marketing subteam develops and manages rollout of new initiatives and campaigns.
+                         Using social media to reach stakeholders, they build and maintain 2338’s brand. 
+                         Whether it's showing porential investors our yearly robot, or simply posting updates on current team events Marketing works hard to make it happen. 
+                         Students resarch potential and connect with new partnerships that align with #FIRSTisForEveryone.</p>
                 </div>
             </div>
         </section>

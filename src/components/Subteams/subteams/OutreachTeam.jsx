@@ -11,9 +11,11 @@ function OutreachTeam() {
                 </div>
                 <div className="left">
                     <h1 className="captain-title">Outreach</h1>
-                    <p className="sub-paragraph">Outreach is one of the great opportunities available on the team. Outreach has an overall job to use our robotics skills to better the community. We solder easy-press buttons onto toys in order to make them more inclusive because some kids might not be able to play with them otherwise. Additionally, we create and design a kickball device called CHUCK (Community-Helping Utility Companion for Kickball). This device allows every kid, regardless of their mobility, to participate in games.
-                        On top of that, we make monthly STEM kits and send them out to underrepresented schools in order to introduce STEM to the young generation. The main star of Outreach is our Impact, formally Chairman´s, Essay. We make an impact essay, video, and summary every year and submit it to FIRST.</p>
-
+                    <p className="sub-paragraph">Our outreach subteam uses our robotics skills to better the community, for example soldering easy-press buttons onto toys for kids that might not be able to play without them.
+                         Additionally, we design and engineer a kickball device called CHUCK (Community-Helping Utility Companion for Kickball). 
+                         This device allows every kid, regardless of situation, to participate in many fun games. 
+                         On top of that, each month we make and deliver STEM kits to underrepresented schools with the goal of making sure every child gets to experience STEM. 
+                         The main star of Outreach however, is our yearly Impact (FKA, Chairman´s) Essay. For this we create an essay, video, and presentation about our Impact on the community.</p>
                 </div>
             </div>
         </section>

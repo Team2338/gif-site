@@ -1,11 +1,12 @@
 import "./subteams.scss";
-import TeamCaptain from "./subteams/TeamCaptain";
-import SoftwareTeam from "./subteams/SoftwareTeam";
-import OutreachTeam from "./subteams/OutreachTeam";
-import MechanicalTeam from "./subteams/MechanicalTeam";
-import ScoutingTeam from "./subteams/ScoutingTeam";
-import MarketingTeam from "./subteams/MarketingTeam";
 import ElectricalTeam from "./subteams/ElectricalTeam";
+import MarketingTeam from "./subteams/MarketingTeam";
+import MechanicalTeam from "./subteams/MechanicalTeam";
+import OutreachTeam from "./subteams/OutreachTeam";
+import ScoutingTeam from "./subteams/ScoutingTeam";
+import SoftwareTeam from "./subteams/SoftwareTeam";
+import TeamCaptain from "./subteams/TeamCaptain";
+import TeamLeaders from "./subteams/TeamLeaders";
 import Intro from "./Intro";
 
 function Subteams() {
@@ -15,10 +16,13 @@ function Subteams() {
                 <Intro/>
                 <section className="teams">
                     <div className="bo">
-                        <SoftwareTeam/>
+                        <TeamCaptain/>
                     </div>
                     <div className="bo">
                         <ElectricalTeam/>
+                    </div>
+                    <div className="bo">
+                        <MarketingTeam/>
                     </div>
                     <div className="bo">
                         <MechanicalTeam/>
@@ -27,11 +31,15 @@ function Subteams() {
                         <OutreachTeam/>
                     </div>
                     <div className="bo">
-                        <MarketingTeam/>
-                    </div>
-                    <div className="bo">
                         <ScoutingTeam/>
                     </div>
+                    <div className="bo">
+                        <SoftwareTeam/>
+                    </div>
+                    <div className="bo">
+                        <TeamLeaders/>
+                    </div>
+                        
                 </section>
             </div>
         </>

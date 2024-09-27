@@ -11,7 +11,10 @@ function MechanicalTeam() {
                 </div>
                 <div className="left gray-part">
                     <h1 className="captain-title">Mechanical</h1>
-                    <p className="sub-paragraph">The Mechanical Subteam is responsible for all design and fabrication of our compittion bots. We run tool and safety training to insure that our shop remains productive and safe. Our design work is done in CAD software, most commonly Autodesk Inventor. Teamwork between subteams is one of the many skills Gear it Forward works to instill in its members. Working with the Electrical and Programing team allows us to quickly and confidently field a world class robot every year.</p>
+                    <p className="sub-paragraph">Our mechanical Subteam is responsible for designing and fabricating all our compittion bots. 
+                        Students go through tool and safety training to insure that our shop remains productive and safe. 
+                        Our design work is done in CAD software, usually Autodesk Inventor. 
+                        Working with the Electrical and Programing subteams allows us to quickly and confidently field a world class competition bot every year.</p>
                 </div>
             </div>
         </section>

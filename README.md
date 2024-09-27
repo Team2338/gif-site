@@ -1,3 +1,34 @@
+# TO-DO
+
+Scale of important 1 (not important) - 5 (very important) 
+
+### Updated photos (2)
+
+### Update pages to current season (3)
+
+### Update all Bot information (4)
+
+### More, will be decided later (1)
+
+# 2338 Team Website
+
+## What is this site?
+
+This is the repo for the 2338 Team website (currently W.I.P), this website aims to give an accurate represntation of our team to any who stumble upon or are led to the site.
+
+## Is this different than App development?
+
+Yes, App development creates our season scounting app, to collect data. This site shows possible investors or interested people what / who we are.
+
+##  Who are the Team Members that developed this site?
+
+The Team members include, Douglar Kampschroer, Rohan Cherukuri, Geetansh Gambhir, and Ronan Ludvigsen.
+
+
+### Below is the basics to Create React provided by "Create React App"
+
+----------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
