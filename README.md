@@ -22,7 +22,7 @@ Yes, App development creates our season scounting app, to collect data. This sit
 
 ##  Who are the Team Members that developed this site?
 
-The Team members include, Douglar Kampschroer, Rohan Cherukuri, Geetansh Gambhir, and Ronan Ludvigsen.
+The Team members include, Douglar Kampschroer, Rohan Cherukuri, Geetansh Gambhir, Tharun S. Brayden Dyche, and Ronan Ludvigsen.
 
 
 ### Below is the basics to Create React provided by "Create React App"
