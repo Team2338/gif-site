@@ -9,7 +9,6 @@ import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import Resources from "./components/Resources/Resources";
 import {useEffect} from "react";
-import popup from "./components/Popup/Popup";
 
 function App() {
 
