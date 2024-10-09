@@ -9,6 +9,13 @@ $tHighlight: #f2f2f2;
 $offBlack: #1D1C1B;
 $introSectionPadding: 150px;
 
+.video-container {
+  display: block;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
 .frc2338-title {
   font-weight: 300;
   color: $orange;

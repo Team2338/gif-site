@@ -2,6 +2,10 @@
 
 Scale of important 1 (not important) - 5 (very important) 
 
+### Create Mobile Accessibility (5)
+    A 6-5 Step process, landing page & Resources is finished
+    NTBD: SUBTEAMS OUTREACH ROBOTS RESOURCES AND NAVBAR
+    
 ### Updated photos (2)
 
 ### Update pages to current season (3)
