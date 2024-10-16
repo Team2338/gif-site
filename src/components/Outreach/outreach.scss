@@ -2,14 +2,24 @@
 
 .content {
   margin-top: 8rem;
+
+  @media (max-width: 927px) {
+    margin-top: 4rem;
+    padding: 0 1rem;
+  }
 }
 
 section {
   margin-bottom: 5rem;
+
+  @media (max-width: 927px) {
+    margin-bottom: 3rem;
+  }
 }
 
 .intro {
   height: 20vh !important;
+
   .content {
     .left {
       flex: 0.6 1;
@@ -17,27 +27,56 @@ section {
       justify-content: center;
       display: flex;
       margin-top: $introSectionPadding;
+
+      @media (max-width: 927px) {
+        flex: 1;
+        margin-top: 2rem;
+      }
     }
   }
 }
 
 .about-outreach {
   margin-top: 7.5rem;
+
+  @media (max-width: 927px) {
+    margin-top: 5rem;
+  }
+
   .content {
     display: flex;
     margin-left: 50px;
 
+    @media (max-width: 927px) {
+      flex-direction: column;
+      margin-left: 0;
+    }
+
     .left {
-      flex: .68 1;
+      flex: 0.68 1;
       margin-left: 13rem;
       padding-right: 1rem;
+
+      @media (max-width: 927px) {
+        margin-left: 0;
+        padding-right: 0;
+        text-align: center;
+      }
+
       .title {
         font-size: 33px;
         font-weight: 400;
+
+        @media (max-width: 927px) {
+          font-size: 28px;
+          margin-top: 3rem; /* Add two lines worth of empty space above the title on mobile */
+        }
+
         span {
           color: $orange;
           font-weight: 300;
         }
+
         .question-mark {
           font-size: 25px;
           font-weight: 100;
@@ -49,9 +88,20 @@ section {
     .right {
       padding-top: 2rem;
 
+      @media (max-width: 927px) {
+        padding-top: 1rem;
+        text-align: center;
+      }
+
       img {
-        border: .8px solid $orange;
+        border: 0.8px solid $orange;
         border-radius: 8px;
+        max-width: 100%;
+
+        @media (max-width: 927px) {
+          width: 100%;
+          height: auto;
+        }
       }
     }
   }
@@ -60,12 +110,24 @@ section {
 .upcoming-events {
   margin-left: 16rem;
   margin-right: 16rem;
+
+  @media (max-width: 927px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .event-header {
     font-weight: 400;
     font-size: 33px;
     padding-bottom: 1.5rem;
+
+    @media (max-width: 927px) {
+      font-size: 28px;
+      text-align: center;
+    }
+
     span {
-      font-size: 33px!important;
+      font-size: 33px !important;
     }
   }
 
@@ -73,17 +135,28 @@ section {
     background-color: $offblue;
     border-radius: 20px;
     border: 1px solid $orange;
+
+    @media (max-width: 927px) {
+      margin-bottom: 1rem;
+    }
   }
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
   .column {
-    float:left;
+    float: left;
     width: 50%;
     padding: 17px;
     text-align: center;
+
+    @media (max-width: 927px) {
+      width: 100%;
+      float: none;
+    }
 
     .event-title {
       font-size: 20px;
@@ -106,14 +179,24 @@ section {
     margin-left: 16rem;
     margin-right: 16rem;
 
+    @media (max-width: 927px) {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
     .title {
       margin-bottom: 1.5rem;
 
       h2 {
         font-size: 33px;
         font-weight: 400;
+
+        @media (max-width: 927px) {
+          font-size: 28px;
+        }
       }
     }
+
     .box {
       display: flex;
       padding: 2rem 0rem 2rem 2rem;
@@ -121,23 +204,41 @@ section {
       background: $offblue;
       border-radius: 3vh;
       border: 1px solid $orange;
+
+      @media (max-width: 927px) {
+        flex-direction: column;
+        padding: 1rem;
+      }
+
       .left {
         flex: 0.9 1;
         margin: 2rem;
 
+        @media (max-width: 927px) {
+          margin: 1rem 0;
+        }
+
         .title {
           font-size: 2rem;
+
+          @media (max-width: 927px) {
+            font-size: 1.75rem;
+          }
         }
 
         .description {
           font-size: 1.5rem;
           font-weight: 300;
           color: $grey;
-          
+
+          @media (max-width: 927px) {
+            font-size: 1.25rem;
+          }
+
           div {
             color: $grey;
           }
-          
+
           a {
             color: $orange;
 
@@ -154,10 +255,14 @@ section {
         justify-content: center;
 
         img {
-          //border: .5px solid $orange;
           border-radius: 8px;
           width: 300px;
           height: 250px;
+
+          @media (max-width: 927px) {
+            width: 100%;
+            height: auto;
+          }
         }
       }
     }

@@ -32,7 +32,7 @@ function Resources(props) {
         [
             {
                 title:'Crescendo',
-                manualSheet: 'https://firstfrc.blob.core.windows.net/frc2024/Manual/2024GameManual.pdf'
+                manualSheet: 'https://tinyurl.com/CrecendoGameManual' //https://firstfrc.blob.core.windows.net/frc2024/Manual/2024GameManual.pdf
             }
         ]
 

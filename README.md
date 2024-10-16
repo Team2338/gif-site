@@ -2,15 +2,13 @@
 
 Scale of important 1 (not important) - 5 (very important) 
 
-### Create Mobile Accessibility (5)
-    A 6-5 Step process, landing page & Resources is finished
-    NTBD: SUBTEAMS OUTREACH ROBOTS RESOURCES AND NAVBAR
-    
 ### Updated photos (2)
 
 ### Update pages to current season (3)
 
-### Update all Bot information (4)
+### Update all Bot information (2)
+
+### Implement sites not started to be implemented AE: Sponsors (4)
 
 ### More, will be decided later (1)
 

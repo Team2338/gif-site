@@ -2,8 +2,9 @@ import './notFound.scss';
 
 function NotFound(props) {
     return (
-        <div>404 ERROR: Not Found. <br>
-            Did you enter the correct address? </br>
+        <div>
+            <h1>404</h1>
+            <h2>Page Not Found</h2>
         </div>
     );
 }
