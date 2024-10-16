@@ -10,8 +10,8 @@ function Details(props) {
                     </svg>
                     <h2>What is <i>FIRST</i> & <i>FRC?</i></h2>
                     <p>
-                        FIRST is a global robotics community preparing young people for the future and the world's leading youth-serving nonprofit advancing STEM education.
-                        Combining the excitement of sport with the rigors of science and technology. The FIRST Robotics Competition the ultimate Sport for the Mind. High-school student participants call it “the hardest fun you’ll ever have.”
+                        FIRST is a global robotics community preparing students for the future and is the world's leading youth-serving nonprofit for STEM education.
+                        First Robotics combines the excitement of sport with the rigors of science and technology. Students sometimes refer to it as “the hardest fun you’ll ever have.”
                     </p>
                 </div>
                 <div className="right">

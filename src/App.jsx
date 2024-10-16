@@ -10,7 +10,6 @@ import Contact from "./components/Contact/Contact";
 import Resources from "./components/Resources/Resources";
 import {useEffect} from "react";
 
-
 function App() {
 
   let Component;

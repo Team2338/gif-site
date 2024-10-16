@@ -40,6 +40,10 @@
                     margin: 10px 0;
                     color: $offwhite;
                     position: relative;
+
+                    @media (max-width: 927px) {
+                        font-size: 40px;
+                    }
                 }
 
                 h2 {
@@ -57,6 +61,10 @@
                     span {
                         margin: 10px 0;
                         color: white;
+
+                        @media (max-width: 927px) {
+                            display: none;
+                        }
                     }
                 }
 

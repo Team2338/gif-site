@@ -1,0 +1,34 @@
+@import "../../globals";
+
+body {
+    background-color: $blue;
+    color: $offwhite;
+    display: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.not-found-container {
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+
+    .h1 {
+        font-size: 6rem;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+    
+    .h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+}

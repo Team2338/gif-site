@@ -15,16 +15,7 @@ body {
     background-color: $blue;
 }
 
-.tablet-screen-message {
-    display: none;
-    color: $offBlack;
-}
-
-@media screen and (max-width: 1080px) {
-    .body-class {
-        display: none;
-    }
-    .tablet-screen-message {
-        display: block;
-    }
-}
+// .tablet-screen-message {
+//     display: none;
+//     color: $offBlack;
+// 
