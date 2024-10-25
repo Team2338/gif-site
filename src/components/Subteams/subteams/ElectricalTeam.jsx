@@ -7,7 +7,7 @@ function ElectricalTeam() {
         <section className="section after-blue electricalCaptain-section">
             <div className="content">
                 <div className="right">
-                    <img src="imgs/Electrical.jpg" alt="Captain Photo" className="image-circle" />
+                    <img src=".\SubTeams Photos\Electrical Ico.png" alt="Electrical Team" />
                 </div>
                 <div className="left gray-part">
                     <h1 className="captain-title">Electrical</h1>

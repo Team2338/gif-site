@@ -26,9 +26,9 @@ function App() {
     case "/robots":
       Component = Robots;
       break;
-    // case "/contact":
-    //   Component = Contact;
-    //   break;
+    case "/contact":
+      Component = Contact;
+      break;
     case "/resources":
       Component = Resources;
       break;
