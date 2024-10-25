@@ -6,7 +6,7 @@ function TeamLeaders() {
             <section className="section teamLeaders-section">
                 <div className="content">
                     <div className="right">
-                        <img src="imgs/IMG_1755.JPG" alt="team leaders" className="image-circle" />
+                        <img src=".\SubTeams Photos\JPG\TeamLeader_Ico.jpg" alt="Team Leaders" className="image-circle" />
                     </div>
                     <div className="left">
                         <h1 className="captain-title">Team Leaders</h1>

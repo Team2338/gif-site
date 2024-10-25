@@ -7,7 +7,7 @@ function OutreachTeam() {
         <section className="section after-blue outreachCaptain-section">
             <div className="content">
                 <div className="right">
-                    <img src="/imgs/imagejpeg_1.jpg" alt="Captain Photo" className="image-circle" />
+                    <img src=".\SubTeams Photos\JPG\Outreach_Ico.jpg" alt="Outreach Team" className="image-circle" />
                 </div>
                 <div className="left">
                     <h1 className="captain-title">Outreach</h1>

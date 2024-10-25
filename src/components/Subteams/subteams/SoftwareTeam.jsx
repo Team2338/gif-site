@@ -6,7 +6,7 @@ function SoftwareTeam() {
             <section className="section softwareCaptain-section">
                 <div className="content">
                     <div className="right">
-                        <img src="imgs/2024Software.JPG" alt="Software" className="image-circle"/>
+                        <img src=".\SubTeams Photos\JPG\Programming_Ico.jpg" alt="Software Team" className="image-circle"/>
                     </div>
                     <div className="left">
                         <h1 className="captain-title">Software</h1>
