@@ -7,7 +7,7 @@ function MarketingTeam() {
         <section className="section after-blue marketingCaptain-section">
             <div className="content">
                 <div className="right">
-                    <img src="public\imgs\SubTeams\Marketing Ico.png" alt="Captain Photo" className="image-circle" />
+                    <img src="./SubTeams Photos/JPG/Marketing_Ico.jpg" alt="Marketing Team" className="image-circle" />
                 </div>
                 <div className="left gray-part">
                     <h1 className="captain-title">Marketing</h1>

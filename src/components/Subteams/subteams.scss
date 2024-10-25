@@ -28,11 +28,11 @@
       display: flex;
       margin-top: -25px;
 
-      .image-circle {
-        border-radius: 50%;
-        height: 41vh;
-        width: 45vh;
-      }
+      // .image-circle {
+      //   border-radius: 100%;
+      //   height: 41vh;
+      //   width: 45vh;
+      // }
     }
 
     .left {
@@ -72,9 +72,11 @@
 
     .image-circle {
       border: 1px solid $orange;
-      border-radius: 50%;
+      border-radius: 25%;
       height: 30vh;
       width: 30vh;
+      object-fit: contain !important;
+      background-color: white;
     }
   }
 }
@@ -177,7 +179,7 @@
   margin-bottom: 0;
 
   @media (max-width: 927px) {
-    margin-bottom: 3rem; 
+    margin-bottom: 50vh; 
   }
 
   .content {

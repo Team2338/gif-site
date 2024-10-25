@@ -2,15 +2,15 @@
 
 Scale of important 1 (not important) - 5 (very important) 
 
-### Updated photos (2)
-
-### Update pages to current season (3)
+### Update page info to current season AE: Outreach (3)
 
 ### Update all Bot information (2)
 
-### Implement sites not started to be implemented AE: Sponsors (4)
+### Implement Sponsors Page (4)
 
-### More, will be decided later (1)
+### Beuatify Resources Page (1)
+
+### More, will be decided later...
 
 # 2338 Team Website
 
@@ -24,7 +24,7 @@ Yes, App development creates our season scounting app, to collect data. This sit
 
 ##  Who are the Team Members that developed this site?
 
-The Team members include, Douglar Kampschroer, Rohan Cherukuri, Geetansh Gambhir, Tharun S. Brayden Dyche, and Ronan Ludvigsen.
+The Team members include, Douglas Kampschroer, Rohan Cherukuri, Geetansh Gambhir, Tharun S. Brayden Dyche, and Ronan Ludvigsen.
 
 
 ### Below is the basics to Create React provided by "Create React App"

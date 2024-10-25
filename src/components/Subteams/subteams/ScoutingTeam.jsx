@@ -5,7 +5,7 @@ function ScoutingTeam() {
         <section className="section after-blue scoutingCaptain-section">
             <div className="content">
                 <div className="right">
-                    <img src="/imgs/IMG_9233.jpeg" alt="Captain" className="image-circle" />
+                    <img src=".\SubTeams Photos\JPG\Scouting_Ico.jpg" alt="Scouting Team" className="image-circle" />
                 </div>
                 <div className="left gray-part">
                     <h1 className="captain-title">Scouting </h1>
