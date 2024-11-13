@@ -1,5 +1,6 @@
 import './app.scss';
 import FullLanding from "./components/Landing/FullLanding";
+import Sponsors from './components/Sponsors/Sponsors';
 import Subteams from "./components/Subteams/Subteams";
 import Outreach from "./components/Outreach/Outreach";
 import Robots from "./components/Robots/Robots";
@@ -25,6 +26,9 @@ function App() {
       break;
     case "/robots":
       Component = Robots;
+      break;
+    case "/sponsors":
+      Component = Sponsors;
       break;
     case "/contact":
       Component = Contact;
