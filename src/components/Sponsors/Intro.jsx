@@ -12,7 +12,7 @@ function Intro() {
                             <span>
                                 <TypeWriter
                                     options={{
-                                        strings: ['Sample Text', 'Sample Text', 'Sample Text'],
+                                        strings: ['Empowering Future Innovators with', 'Fueled by Visionaries like', 'Driving STEM Excellence through'],
                                         autoStart: true,
                                         loop:true
                                     }}

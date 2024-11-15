@@ -11,7 +11,7 @@ function Intro() {
                             <span>
                                 {<TypeWriter
                                     options={{
-                                        strings: ['Any business inquires, please', 'Any team or member questions, please', 'All other inquiries, please'],
+                                        strings: ['Any business inquires,', 'Any team or member questions,', 'Other inquiries,'],
                                         autoStart: true,
                                         loop:true
                                     }}
