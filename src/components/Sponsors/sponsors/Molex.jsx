@@ -1,13 +1,11 @@
 import "../sponsors.scss";
-import React, {useState} from "react";
 
 function Molex() {
-    const [isOpen, setIsOpen] = useState(false);
     return (
-        <section className="section after-blue marketingCaptain-section">
+        <section className="section">
             <div className="content">
                 <div className="right">
-                    <img src="image" alt="" className="image-circle" />
+                    <img src="/imgs/sponsors/MOLEX.jpg" alt="" className="image-circle" />
                 </div>
                 <div className="left gray-part">
                     <h1 className="captain-title">Molex</h1>
